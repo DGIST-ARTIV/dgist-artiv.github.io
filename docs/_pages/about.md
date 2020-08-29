@@ -1,3 +1,10 @@
+---
+layout: post
+title: "About"
+author: "Gwanjun"
+permalink: /about/
+---
+
 # DGIST ARTIV Tech Blog
 이 블로그는 DGIST UGRP 메가프로젝트로 수행된 ARTIV 랩의 자율주행차 처음부터 끝까지 빌드업에 관련한 기술 블로그입니다.
 
