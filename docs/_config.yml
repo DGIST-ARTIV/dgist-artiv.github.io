@@ -1,5 +1,5 @@
 #theme: jekyll-theme-dinky
-remote_theme : thiagorossener/jekflix-template
+theme : thiagorossener/jekflix-template
 
 # Site settings
 name: ARTIV
