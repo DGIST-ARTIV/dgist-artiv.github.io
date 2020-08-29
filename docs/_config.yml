@@ -4,6 +4,7 @@ remote_theme : chesterhow/tale
 # Site settings
 title:          ARTIV Tech Blog
 description:    "DGIST ARTIV Tech blog"
+baseurl:        "/docs"
 url:            "https://dgist-artiv.github.io"
 
 
