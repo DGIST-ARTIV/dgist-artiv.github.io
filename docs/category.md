@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Teams
 ---
 
 ARTIV Lab은 9개의 연구 개발 파트가 조직되어있습니다.
