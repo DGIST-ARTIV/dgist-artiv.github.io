@@ -13,6 +13,8 @@ menu:
     url: /
   - title: About
     url: /about
+  - title: Staff
+    url: staff.html
 
 categories_folder: category
 
