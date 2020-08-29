@@ -2,6 +2,7 @@
 remote_theme : thiagorossener/jekflix-template
 
 # Site settings
+name: ARTIV
 title:          ARTIV Tech Blog
 description:    "DGIST ARTIV Tech blog"
 url:            "https://dgist-artiv.github.io"

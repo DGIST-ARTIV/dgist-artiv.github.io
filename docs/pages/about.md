@@ -1,7 +1,7 @@
 ---
-layout: post
-title: "About"
-author: "Gwanjun"
+layout: page
+title: About
+description: About DGIST ARTIV
 permalink: /about/
 ---
 
