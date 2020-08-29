@@ -13,8 +13,11 @@ menu:
     url: /
   - title: About
     url: /about
-  - title: Staff
+  - title: Member
     url: /staff
+  - title: Team
+    - title: lidar
+      url: /category/lidar
 
 categories_folder: category
 
