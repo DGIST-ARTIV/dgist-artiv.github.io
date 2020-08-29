@@ -23,7 +23,6 @@ highlighter: rouge
 collections:
   authors:
     output: true
-show_get_theme_btn: true
 use_logo: false
 
 github_username: dgist-artiv
