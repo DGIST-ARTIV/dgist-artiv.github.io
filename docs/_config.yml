@@ -18,12 +18,31 @@ menu:
 
 categories_folder: category
 
+google_analytics: "UA-107264403-4"
 markdown: kramdown
 highlighter: rouge
 collections:
   authors:
     output: true
 use_logo: false
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
 
 github_username: dgist-artiv
 
