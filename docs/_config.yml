@@ -15,9 +15,8 @@ menu:
     url: /about
   - title: Member
     url: /staff
-  - title: Team
-    - title: lidar
-      url: /category/lidar
+  - title: Teams
+    url: /category
 
 categories_folder: category
 
