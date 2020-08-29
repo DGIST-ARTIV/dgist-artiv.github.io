@@ -14,7 +14,7 @@ menu:
   - title: About
     url: /about
   - title: Staff
-    url: staff.html
+    url: /staff.html
 
 categories_folder: category
 
