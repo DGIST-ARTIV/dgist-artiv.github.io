@@ -1,22 +1,23 @@
 #theme: jekyll-theme-dinky
-remote_theme : chesterhow/tale
+remote_theme : thiagorossener/jekflix-template
 
 # Site settings
 title:          ARTIV Tech Blog
 description:    "DGIST ARTIV Tech blog"
-baseurl:        "/docs"
 url:            "https://dgist-artiv.github.io"
 
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
 
-permalink:  /:year-:month-:day/:title
-paginate:   5
+categories_folder: category
 
-# Author
-author:
-  name:         Gwanjun Shin
-  url:          https://github.com/shinkansan
-  email:        shinkansan@dgist.ac.kr
+github_username: dgist-artiv
 
+# Plugins
 plugins:
   - jekyll-paginate
-  - jekyll-remote-theme
+  - jekyll-paginate-content
