@@ -13,12 +13,16 @@ menu:
     url: /
   - title: About
     url: /about
-  - title: Member
+  - title: Members
     url: /staff
   - title: Teams
     url: /category
 
 categories_folder: category
+
+language: "kr"
+paginate: 12
+two_columns_layout: true
 
 google_analytics: "UA-107264403-4"
 markdown: kramdown
