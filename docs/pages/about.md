@@ -8,6 +8,9 @@ permalink: /about/
 # DGIST ARTIV Lab.
 대구경북과학기술원 학부생 도전과제 UGRP 수행팀 ARTIV 입니다.
 
+연구 과제명 : __자율주행자동차 기반 스마트 캠퍼스 조성__
+
+
 ## Main Research Topic
   1. Autonomous Vehicle Development
   2. ADAS Sensor application development
