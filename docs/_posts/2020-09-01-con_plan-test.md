@@ -6,7 +6,7 @@ subtitle: Smart Summon Test
 description: Smart Summon Test
 image: https://user-images.githubusercontent.com/59784459/91747796-cacc6b80-ebf9-11ea-9724-80692e118590.gif
 
-category: Control & Planning
+category: control
 tags:
   - autonomous
   - path planning
