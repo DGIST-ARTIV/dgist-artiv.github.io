@@ -34,11 +34,9 @@ sudo apt-get install libmuparser-dev
 ### 1. Download ros_canopen Package
 우선 다음 git 명령어로 ros_canpoen 패키지를 다운받자.    
 
-
 ```
 git clone https://github.com/ros-industrial/ros_canopen.git
 ```    
-
 
 물론 그냥 [사이트](https://github.com/ros-industrial/ros_canopen)에서 zip 파일을 다운 받아서 압축을 풀어도 된다.     
 참고로 다운 받는 위치는 workspace내에 src 폴더이다.    
@@ -47,7 +45,6 @@ git clone https://github.com/ros-industrial/ros_canopen.git
 ### 2. 컴퓨터와 CAN 장치 연결
 *참고로 이 과정은 [Voyage](https://news.voyage.auto/an-introduction-to-the-can-bus-how-to-programmatically-control-a-car-f1b18be4f377) 사이트를 참고했다.*    
 Kvaser사의 CAN 선을 컴퓨터에 연결하였다면 다음 명령어를 순서대로 입력한다.    
-
 
 ```
 sudo modprobe can    
@@ -98,5 +95,5 @@ topic의 정보를 보면 알겠지만 메시지 타입이 can_msgs/Frame으로 
 ## 추후 계획
 이제 kvaser 전용 툴 없이도 can raw data를 받아올 수 있다.    
 그러므로 다른 팀의 개발을 위해 CAN DB에 맞게 data를 parsing하는 프로그램이 필요하다.    
-이는 오늘 개발될 예정이니 걱정하지 말도록.    
-개발 완료 -> [사이트](https://github.com/shinkansan/ARTIV/blob/master/Comms/Ioniq/artiv_can/readme.md)
+그 외에도 원터치로 데이터 송수신을 할 수 있는 프로그램을 만들게 된다.    
+이는 ARTIV의 IONIQ을 위한 통신프로그램으로, 공식적인 ros_canopen의 파일과는 약간 달라서 ARTIV의 Github에서 패키지를 다운 받아야 한다.
