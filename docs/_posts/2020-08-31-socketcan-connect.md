@@ -55,18 +55,21 @@ sudo modprobe kvaser_usb
 sudo ip link set can0 type can bitrate 500000    
 sudo ifconfig can0 up
 ```    
+  
+위 과정 중에 문제가 없다면 CAN 연결은 끝났다.    
+문제가 생기는 경우는 Device가 없거나, 연결이 중복되는 것이다.    
+이럴때는 CAN 선을 물리적으로 재연결 해보거나 아래 명령어를 통해서 소프트웨어적으로 재연결 해볼 수 있다.    
 
+```
+sudo ifconfig can0 down
+sudo ifconfig can0 up
+```
 
-만약 위 과정 중에 Permission에 대한 오류가 발생하면 명령어 맨 앞에 sudo를 붙이자!    
-위 과정이 성공적이라면 CAN 연결은 끝났다.    
-device가 없다고 하면 CAN 선을 뽑았다가 꽂아보자. 금방 될 것이다.    
 아래의 마지막 명령어를 입력해 CAN 정보를 받아올 수 있다.    
-
 
 ```
 candump can0
 ```    
-
 
 참고로 위 명령어는 단지 CAN Bus를 Monitoring하는 명령어이며 필수는 아님.    
 
@@ -75,22 +78,18 @@ CAN 정보를 수신하기 위한 마지막 단계로, 이를 위해서 이때�
 우선 source 후에 roscore를 실행해야 한다.(ros1 기준)    
 다운받은 ros_canopen 패키지의 workspace로 이동하자.    
 
-
 ```
 cd ~/(workspace)    
 source devel/setup.bash
 ```    
 
-
 패키지로 가기 전 workspace에서 위 명령어로 workspace에 source를 해주자.(이유는 알겠지?)    
 이유는 workspace 내의 새로운 src 및 include 파일을 인식해야하기 때문이다.    
 그 후에 다음 예제를 실행함으로써 can raw data를 ros에 publish하자!    
 
-
 ```
 rosrun socketcan_bridge socketcan_bridge_node
 ```    
-
 
 위 명령어를 실행 후에 rostopic list 중에 /received messages가 있으면 성공이다!    
 topic의 정보를 보면 알겠지만 메시지 타입이 can_msgs/Frame으로 Custom 형태이기 때문에 주의하길 바란다.(source 등등...)    
