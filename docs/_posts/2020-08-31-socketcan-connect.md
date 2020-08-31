@@ -4,7 +4,7 @@ layout: post
 title: How to connect Computer to IONIQ by SocketCAN
 subtitle: SocketCAN으로 차량 정보 받아오기
 description: SocketCAN으로 차량 정보 받아오기
-image: https://github.com/shinkansan/ARTIV/blob/master/docs/teams/hw%26comms/media/CAN_construct.jpg
+image: /assets/img/socketcan-diagram.png
 category: hwcomms
 tags:
   - ROS
