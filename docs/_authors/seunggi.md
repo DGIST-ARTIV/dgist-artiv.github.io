@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: https://user-images.githubusercontent.com/59784459/91744223-1714ad00-ebf4-11ea-9f48-0557fd349130.jpg
+photo: https://user-images.githubusercontent.com/59784459/91744427-7672bd00-ebf4-11ea-87a6-56485efce001.jpg
 name: seunggi
 display_name: Seunggi Lee
 position: Control&Planning Part leader
