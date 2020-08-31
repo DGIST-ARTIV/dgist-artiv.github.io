@@ -23,7 +23,7 @@ menu:
 categories_folder: category
 
 language: "kr"
-paginate: 8
+paginate: 12
 two_columns_layout: true
 
 google_analytics: "UA-107264403-4"
