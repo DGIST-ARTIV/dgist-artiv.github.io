@@ -17,8 +17,8 @@ menu:
     url: /staff
   - title: Teams
     url: /category
-  - title: e-manual
-    url: https://artiv.gitbook.io/
+  - title: Self Driving SW(Beta)
+    url: /asd
 
 categories_folder: category
 
