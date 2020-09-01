@@ -4,7 +4,7 @@ layout: post
 title: How can use tensorflow-yolov3 with FLIR camera
 subtitle: 텐서플로우로 구현된 yolov3 사용(FLIR 카메라 사용)
 description: 텐서플로우로 구현된 yolov3 사용(FLIR 카메라 사용)
-image: https://user-images.githubusercontent.com/59161083/91839352-d9626380-ec89-11ea-9bf8-62b23fa1df48.png
+image: https://user-images.githubusercontent.com/59161083/91839404-f72fc880-ec89-11ea-910a-501978886cda.png
 category: vision
 tags:
   - autonomous
