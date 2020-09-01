@@ -4,7 +4,7 @@ layout: post
 title: How to use yolov4
 subtitle: yolov4 실행시켜보기
 description: yolov4 실행시켜보기
-image: https://github.com/shinkansan/ARTIV/blob/master/Vision/%EC%9D%B4%EA%B5%AC/img/yolo_v4_test.PNG?raw=true
+image: https://user-images.githubusercontent.com/59161083/91834463-0b23fc00-ec83-11ea-8566-2cc41cbedb71.png
 category: vision
 tags:
   - autonomous
