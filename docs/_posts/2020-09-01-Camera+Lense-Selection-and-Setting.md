@@ -4,7 +4,7 @@ layout: post
 title: Camera, Lense Selection and Setting
 subtitle: 카메라, 렌즈 선정 및 셋팅
 description: 카메라, 렌즈 선정 및 셋팅
-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flirkorea.com%2Fproducts%2Fgrasshopper3-usb3%2F&psig=AOvVaw2_tTsqIdokP1XCVY8m9Hg-&ust=1599037658559000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLj_h8_Nx-sCFQAAAAAdAAAAABAJ
+image: https://www.flirkorea.com/globalassets/imported-assets/image/grasshopper3_frontback_usb.png
 category: vision
 tags:
   - autonomous
