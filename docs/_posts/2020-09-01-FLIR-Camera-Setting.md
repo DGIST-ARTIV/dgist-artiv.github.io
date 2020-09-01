@@ -1,7 +1,7 @@
 ---
 date: 2020-09-01
 layout: post
-title: FLIR Grasshopper3 Setting
+title: FLIR Grasshopper3 Unboxxing and Use
 subtitle: FLIR 카메라 언박싱 및 사용법
 description: FLIR 카메라 언박싱 사용법
 image: https://user-images.githubusercontent.com/59161083/91836372-a6b66c00-ec85-11ea-8639-b65991083e17.png
