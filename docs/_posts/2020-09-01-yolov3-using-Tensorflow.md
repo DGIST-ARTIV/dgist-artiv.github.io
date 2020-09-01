@@ -59,6 +59,7 @@ sess= tf.Session(config=config):
 ~~~
 
 ## Evaluation with original yolo(using darknet)
+
 |  | fps |Memory-Usage|Power(Usage/Cap)|Volatile GPU-Util|
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 | tensorflow-yolov3 | 약 17 fps | 약 8809 MB | 125W/250W | 35% |
