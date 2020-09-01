@@ -1,7 +1,7 @@
 ---
 date: 2020-08-31
 layout: post
-title: How to connect Computer to IONIQ by SocketCAN
+title: How to connect Computer to CAN Device by SocketCAN
 subtitle: SocketCAN으로 차량 정보 받아오기
 description: SocketCAN으로 차량 정보 받아오기
 image: /assets/img/socketcan-diagram.png
