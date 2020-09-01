@@ -54,7 +54,7 @@ make install
 yolov4.weights파일은 [링크](https://drive.google.com/uc?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT&export=download)에서 다운받을 수 있다.
 
 이용하는 사람이 너무 많아서 아직 weights 파일을 다운받을 수 없었다.   
-
+![img](https://user-images.githubusercontent.com/59161083/91834463-0b23fc00-ec83-11ea-8566-2cc41cbedb71.png)   
 직접 실행해본 결과, 4~6 fps 정도 나온다.   
 
 ### 2020/04/30
