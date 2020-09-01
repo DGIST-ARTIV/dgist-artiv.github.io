@@ -1,9 +1,9 @@
 ---
 date: 2020-09-01
 layout: post
-title: Camera, Lense Selection and Setting
-subtitle: 카메라, 렌즈 선정 및 셋팅
-description: 카메라, 렌즈 선정 및 셋팅
+title: How to use yolov4
+subtitle: yolov4 실행시켜보기
+description: yolov4 실행시켜보기
 image: https://github.com/shinkansan/ARTIV/blob/master/Vision/%EC%9D%B4%EA%B5%AC/img/yolo_v4_test.PNG?raw=true
 category: vision
 tags:
@@ -14,6 +14,7 @@ tags:
   - yolov4
 author: gu
 ---
+
 
 # how to use yolo_v4
 Author: 이  구
