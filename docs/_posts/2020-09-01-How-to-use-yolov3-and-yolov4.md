@@ -9,8 +9,9 @@ category: vision
 tags:
   - autonomous
   - vision
-  - camera
-  - lense
+  - object detection
+  - yolov3
+  - yolov4
 author: gu
 ---
 
