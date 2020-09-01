@@ -4,7 +4,7 @@ layout: post
 title: Camera, Lense Selection and Setting
 subtitle: 카메라, 렌즈 선정 및 셋팅
 description: 카메라, 렌즈 선정 및 셋팅
-image: https://user-images.githubusercontent.com/25432456/91639157-9f0d8200-ea4f-11ea-8472-4ba8e84ead2e.jpeg
+image: ![grasshopper3_frontback_usb (1)](https://user-images.githubusercontent.com/59161083/91830413-b6ca4d80-ec7d-11ea-96b0-a89880dcb631.png)
 category: vision
 tags:
   - autonomous
@@ -50,6 +50,6 @@ Date : 2020.02.14.
 2. 수평 FOV 좁은 렌즈 찾기
 
 ### 최종 구매
-결국 FLIR Grasshopper3 USB3 [링크](https://www.flir.com/products/grasshopper3-usb3?model=GS3-U3-32S4C-C)와 ACH0518M10M
+결국 FLIR Grasshopper3 USB3 [링크](https://www.flir.com/products/grasshopper3-usb3?model=GS3-U3-32S4C-C)와 ACH0518M10M 
 
 
