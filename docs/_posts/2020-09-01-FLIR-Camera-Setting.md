@@ -4,7 +4,7 @@ layout: post
 title: FLIR Grasshopper3 Setting
 subtitle: FLIR 카메라 언박싱 및 사용법
 description: FLIR 카메라 언박싱 사용법
-image: https://user-images.githubusercontent.com/59161083/91834463-0b23fc00-ec83-11ea-8566-2cc41cbedb71.png
+image: https://user-images.githubusercontent.com/59161083/91836372-a6b66c00-ec85-11ea-8639-b65991083e17.png
 category: vision
 tags:
   - autonomous
