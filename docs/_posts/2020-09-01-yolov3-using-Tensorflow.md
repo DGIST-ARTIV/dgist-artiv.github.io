@@ -24,6 +24,7 @@ Camera: FLIR Grasshopper3 USB3 (GS3-U3-32S4M-C)
 tensorflow-gpu:1.14.0   
 CUDA: 10.0   
 cudnn: 7.6.5   
+GPU: Titan Xp
 
 ## Use
 ~~~bash
@@ -39,6 +40,7 @@ $ python freeze_graph.py
 $ python3 tensorflow_YOLO_FLIR.py
 ~~~
 
+
 ## Memory management
 tensorflow는 GPU의 전체 memory를 미리 할당한다. per_process_gpu_memory_fraction, allow_growth 옵션을 이용하여 해결할 수 있다.
 
@@ -49,7 +51,7 @@ config.gpu_options.per_process_gpu_memory_fraction = 0.4
 sess = tf.Session(config=config) as sess:
 ~~~
 
-2. 프로세스가 전체 GPU memory를 할당하지 않도록 설정
+2. 프로세스가 전체 GPU memory를 할당하지 않도록 설정   
 ~~~python3
 config = tf.ConfigProto()
 config.gpu_options.allow_growth = True
