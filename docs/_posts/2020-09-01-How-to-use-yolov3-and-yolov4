@@ -4,13 +4,13 @@ layout: post
 title: Camera, Lense Selection and Setting
 subtitle: 카메라, 렌즈 선정 및 셋팅
 description: 카메라, 렌즈 선정 및 셋팅
-image: https://github.com/shinkansan/ARTIV/blob/master/Vision/%EC%9D%B4%EA%B5%AC/img/yolo_v4_test.PNG
+image: https://user-images.githubusercontent.com/25432456/91639157-9f0d8200-ea4f-11ea-8472-4ba8e84ead2e.jpeg
 category: vision
 tags:
   - autonomous
   - vision
   - camera
-  - object detection
+  - lense
 author: gu
 ---
 
