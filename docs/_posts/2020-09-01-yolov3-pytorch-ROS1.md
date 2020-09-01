@@ -9,9 +9,8 @@ category: vision
 tags:
   - autonomous
   - vision
-  - camera
-  - FLIR
-  - Grasshopper3
+  - ROS
+  - ROS melodic
 author: gu
 ---
 
