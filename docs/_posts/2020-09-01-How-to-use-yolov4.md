@@ -51,8 +51,7 @@ make install
 ./darknet detector demo cfg/coco.data cfg/yolov4.cfg yolov4.weights -ext_output test.mp4
 ~~~
 
-yolov4.weights파일은 아래 링크에서 다운받을 수 있다.
-https://drive.google.com/uc?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT&export=download
+yolov4.weights파일은 [링크](https://drive.google.com/uc?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT&export=download)에서 다운받을 수 있다.
 
 이용하는 사람이 너무 많아서 아직 weights 파일을 다운받을 수 없었다.   
 
