@@ -18,7 +18,6 @@ author: gu
 
 # how to use yolo_v4
 Author: 이  구
-
 > reference: https://github.com/AlexeyAB/darknet
 
 ### 2020/04/26 
