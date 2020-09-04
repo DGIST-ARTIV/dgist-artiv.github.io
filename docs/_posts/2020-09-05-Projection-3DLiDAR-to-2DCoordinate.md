@@ -4,7 +4,7 @@ layout: post
 title: projection 3D LiDAR points to 2D coordinate 
 subtitle: 라이다 3D 점을 2D로 사영
 description: 라이다 3D 점을 2D로 사영
-image: https://user-images.githubusercontent.com/42258047/92270065-573f9c80-ef20-11ea-89a1-16f17d22810f.gif
+image: https://user-images.githubusercontent.com/42258047/92272571-c0c1aa00-ef24-11ea-8191-91b3e5d26faa.gif
 category: sensorfusion
 tags:
   - camera
