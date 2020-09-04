@@ -3,7 +3,7 @@ layout: author
 photo: https://user-images.githubusercontent.com/59161083/91834908-a1582200-ec83-11ea-82a3-a4d1cceaef20.jpeg
 name: gu
 display_name: Gu Lee
-position: Vision Part leader
-bio: DGIST Undergraduate Junior
+position: Vision Part Leader
+bio: DGIST Undergraduate Junior\nVision Part Leader
 github_username: 99sphere
 ---
