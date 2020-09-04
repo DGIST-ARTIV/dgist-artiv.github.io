@@ -4,7 +4,7 @@ layout: post
 title: projection 3D LiDAR points to 2D coordinate 
 subtitle: 라이다 3D 점을 2D로 사영
 description: 라이다 3D 점을 2D로 사영
-image: https://user-images.githubusercontent.com/42258047/91830447-c0ec4c00-ec7d-11ea-95e2-8440282e33d2.gif
+image: https://user-images.githubusercontent.com/42258047/92270065-573f9c80-ef20-11ea-89a1-16f17d22810f.gif
 category: sensorfusion
 tags:
   - camera
@@ -53,9 +53,10 @@ reference site : (https://github.com/reinforcementdriving/lidar_projection) 에�
 
 lidar_to_2d_front_view의 결과는 다음과 같다.
 (다음 결과는 h_res = 0.4, v_res = 0.8 로 설정한 결과이다.)
-https://user-images.githubusercontent.com/42258047/91830447-c0ec4c00-ec7d-11ea-95e2-8440282e33d2.gif
+<p align="center"><img src=https://user-images.githubusercontent.com/42258047/92270065-573f9c80-ef20-11ea-89a1-16f17d22810f.gif></img></p>
 
 
 코드 중에 bird eye view로 전환해주는 코드를 이용한 결과는 다음과 같다. 
-https://user-images.githubusercontent.com/42258047/92269604-7984ea80-ef1f-11ea-99a5-fe7e53e4d70a.png
+<p align="center"><img src=https://user-images.githubusercontent.com/42258047/92269604-7984ea80-ef1f-11ea-99a5-fe7e53e4d70a.png></img></p>
+
 
