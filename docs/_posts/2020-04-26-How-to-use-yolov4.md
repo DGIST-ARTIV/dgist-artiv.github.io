@@ -1,5 +1,5 @@
 ---
-date: 2020-09-01
+date: 2020-04-26
 layout: post
 title: How to use yolov4
 subtitle: yolov4 실행시켜보기
