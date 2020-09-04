@@ -27,8 +27,8 @@ Camera: Logitech BRIO
 pytorch: 1.2.0   
 CUDA: 10.0   
 cudnn: 7.6.5   
-opencv: 4.3.0
-GPU: RTX 2080Ti   
+opencv: 4.3.0   
+GPU: RTX 2080Ti    
 ROS: melodic
 
 ## Usage
