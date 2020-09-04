@@ -63,3 +63,7 @@ lidar_to_2d_front_view의 결과는 다음과 같다.
 ![bird_eye_view](https://user-images.githubusercontent.com/42258047/92269604-7984ea80-ef1f-11ea-99a5-fe7e53e4d70a.png)
 
 
+### projection LiDAR points on image
+
+![Screenshot from 2020-09-05 03-00-23](https://user-images.githubusercontent.com/42258047/92272188-0f227900-ef24-11ea-8385-6f86dd292876.png)
+
