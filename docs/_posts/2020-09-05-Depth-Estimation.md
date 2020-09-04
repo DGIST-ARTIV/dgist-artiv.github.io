@@ -1,10 +1,10 @@
 ---
 date: 2020-09-01
 layout: post
-title: How to use yolov4
-subtitle: yolov4 실행시켜보기
-description: yolov4 실행시켜보기
-image: https://user-images.githubusercontent.com/59161083/91840097-19761600-ec8b-11ea-978f-94a8d6633d56.png
+title: Depth Estimation with Monodepth2 using ROS
+subtitle: Monodepth2를 이용해 얻은 real-time depthmap을 ROS로 publish 하기!
+description: Monodepth2를 이용해 얻은 real-time depthmap을 ROS로 publish 하기!
+image: https://user-images.githubusercontent.com/59161083/87166967-45b68b80-c307-11ea-9b86-ece82858d94d.gif
 category: vision
 tags:
   - autonomous
