@@ -57,6 +57,6 @@ lidar_to_2d_front_view의 결과는 다음과 같다.
 
 
 코드 중에 bird eye view로 전환해주는 코드를 이용한 결과는 다음과 같다. 
-<p align="center"><img src=https://user-images.githubusercontent.com/42258047/92269604-7984ea80-ef1f-11ea-99a5-fe7e53e4d70a.png></img></p>
+![bird_eye_view](https://user-images.githubusercontent.com/42258047/92269604-7984ea80-ef1f-11ea-99a5-fe7e53e4d70a.png)
 
 
