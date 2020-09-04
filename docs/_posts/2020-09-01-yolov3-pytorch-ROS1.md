@@ -34,7 +34,7 @@ usb_cam이 아닌, 동영상 파일을 이용하기 위해 찾은 패키지이�
 
 ### yolov3_pytorch_ros
 ROS의 Image 타입 message를 받은 후, yolo v3로 object들을 detect한 후, 그 이미지를 Image 타입의 메세지로, 인식된 물체들을 BoundingBoxes 메세지 타입으로 publish한다. 이때, BoundingBoxes는 custom message로, BoundingBox의 array이다. BoundingBox 역시 custom message로, 아래와 같이 구성되어 있다.   
-
+```(python)
 BoundingBox{
     string Class
     float64 probability
@@ -43,7 +43,7 @@ BoundingBox{
     int64 xmax
     int64 ymax
 }
-
+```
 ### YOLO
 위의 yolov3_pytorch_ros 패키지에서 publish한 정보를 활용하는 패키지이다. YOLO 패키지는 두 개의 노드로 구성되어 있는데, 하나는 BboxSubscriber, 다른 하나는 ImgPreprocessing 이다.
 
