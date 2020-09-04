@@ -1,5 +1,5 @@
 ---
-date: 2020-09-01
+date: 2020-02-14
 layout: post
 title: Camera, Lense Selection and Setting
 subtitle: 카메라, 렌즈 선정 및 셋팅
