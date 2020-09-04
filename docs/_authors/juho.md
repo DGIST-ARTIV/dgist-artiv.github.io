@@ -4,7 +4,7 @@ photo: https://user-images.githubusercontent.com/59792475/92255733-b2b45f00-ef0d
 
 name: juho
 display_name: Juho Song
-position: Integrated Software Leader & Localization Researcher
+position: Integrated Software Leader & HD Map Researcher
 bio: I love Coding & Dog :)
 github_username: JUHO25
 ---
