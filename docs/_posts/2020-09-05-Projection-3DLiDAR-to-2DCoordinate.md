@@ -53,10 +53,11 @@ reference site : (https://github.com/reinforcementdriving/lidar_projection) 에�
 
 lidar_to_2d_front_view의 결과는 다음과 같다.
 (다음 결과는 h_res = 0.4, v_res = 0.8 로 설정한 결과이다.)
-<p align="center"><img src=https://user-images.githubusercontent.com/42258047/92270065-573f9c80-ef20-11ea-89a1-16f17d22810f.gif></img></p>
+![lidar_to_2d_front_view](https://user-images.githubusercontent.com/42258047/92270065-573f9c80-ef20-11ea-89a1-16f17d22810f.gif)
 
 
 코드 중에 bird eye view로 전환해주는 코드를 이용한 결과는 다음과 같다. 
+
 ![bird_eye_view](https://user-images.githubusercontent.com/42258047/92269604-7984ea80-ef1f-11ea-99a5-fe7e53e4d70a.png)
 
 
