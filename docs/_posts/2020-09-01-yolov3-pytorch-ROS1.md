@@ -4,7 +4,7 @@ layout: post
 title: yolov3 using pytorch with ROS melodic
 subtitle: yolov3 using pytorch with ROS melodic
 description: yolov3 using pytorch with ROS melodic
-image: https://user-images.githubusercontent.com/59161083/91839558-38c07380-ec8a-11ea-8413-5fc5fff42283.png
+image: http://incredible.ai/assets/posts2/Pytorch/logo.jpg
 category: vision
 tags:
   - autonomous
