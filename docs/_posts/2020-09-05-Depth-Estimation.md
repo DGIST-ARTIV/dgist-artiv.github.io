@@ -1,5 +1,5 @@
 ---
-date: 2020-09-01
+date: 2020-09-05
 layout: post
 title: Depth Estimation with Monodepth2 using ROS
 subtitle: Monodepth2를 이용해 얻은 real-time depthmap을 ROS로 publish 하기!
