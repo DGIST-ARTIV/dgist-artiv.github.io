@@ -31,7 +31,7 @@ language : c++
 
 reference site : (https://github.com/reinforcementdriving/lidar_projection) 에서 show.py를 들어가서 보면, 라이다의 3D coordinate를 2D로 projection하는 계산 식이 다음과 같이 있다. 여기서 우리는 적절한 h_res, v_res를 설정해서 projection된 이미지를 얻을 수 있다. 
 
-'''    
+```  
     x_lidar = points[:, 0]
     y_lidar = points[:, 1]
     z_lidar = points[:, 2]
@@ -46,7 +46,8 @@ reference site : (https://github.com/reinforcementdriving/lidar_projection) 에�
     h_res_rad = h_res * (np.pi/180)
     # PROJECT INTO IMAGE COORDINATES
     x_img = np.arctan2(-y_lidar, x_lidar)/ h_res_rad
-    y_img = np.arctan2(z_lidar, d_lidar)/ v_res_rad   '''
+    y_img = np.arctan2(z_lidar, d_lidar)/ v_res_rad   
+```
     
     
 ### Excution Result
