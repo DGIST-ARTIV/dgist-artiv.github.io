@@ -1,5 +1,5 @@
 ---
-date: 2020-09-01
+date: 2020-05-08
 layout: post
 title: FLIR Grasshopper3 Unboxxing and Use
 subtitle: FLIR 카메라 언박싱 및 사용법
@@ -17,7 +17,7 @@ author: gu
 
 # How to use FLIR Camera(Grasshopper USB3)
 Author: 이  구   
-date: 2020.07.07
+date: 2020.05.08
 
 ## 구성품 및 동작 확인
 
