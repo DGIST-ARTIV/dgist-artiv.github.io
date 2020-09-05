@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: https://avatars1.githubusercontent.com/u/25432456?s=460&u=9072cd95bc308c7369c2eaaa6412684b3d5c7c0c&v=4
+photo: https://user-images.githubusercontent.com/42258047/92299118-8f7bc500-ef8a-11ea-9a3f-07e62ab53e94.jpg
 name: hyunjin
 display_name: Hyunjin Bae
 position: Sensor Fusion
