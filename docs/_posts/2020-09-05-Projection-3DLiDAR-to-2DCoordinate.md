@@ -29,7 +29,13 @@ language : c++
 
 ### how to calculation
 
-reference site : (https://github.com/reinforcementdriving/lidar_projection) 에서 show.py를 들어가서 보면, 라이다의 3D coordinate를 2D로 projection하는 계산 식이 다음과 같이 있다. 여기서 우리는 적절한 h_res, v_res를 설정해서 projection된 이미지를 얻을 수 있다. 
+라이다 점은 (x,y,z)로 3 dimension을 가지는 좌표에 존재하는데 이를 2개의 축에 대한 점으로 바꿔서 생각하기 위해 다음과 같이 생각 할 수 있다. 
+
+![lidar_point](https://user-images.githubusercontent.com/42258047/92302759-982fc380-efa9-11ea-9b53-5d30a8385c5d.png)
+![figure1(b)](https://user-images.githubusercontent.com/42258047/92302761-9a921d80-efa9-11ea-8b43-4a82c98c94f0.png)
+![figure1(c)](https://user-images.githubusercontent.com/42258047/92302762-9c5be100-efa9-11ea-862e-50ee6a37c70a.png)
+
+reference site : (https://github.com/reinforcementdriving/lidar_projection) 에서도 show.py를 들어가서 보면, 라이다의 3D coordinate를 2D로 projection하는 계산 식이 다음과 같이 있다. 여기서 우리는 적절한 h_res, v_res를 설정해서 projection된 이미지를 얻을 수 있다. 
 
 ```  
     x_lidar = points[:, 0]
@@ -48,7 +54,7 @@ reference site : (https://github.com/reinforcementdriving/lidar_projection) 에�
     x_img = np.arctan2(-y_lidar, x_lidar)/ h_res_rad
     y_img = np.arctan2(z_lidar, d_lidar)/ v_res_rad   
 ```
-    
+
     
 ### Excution Result
 
