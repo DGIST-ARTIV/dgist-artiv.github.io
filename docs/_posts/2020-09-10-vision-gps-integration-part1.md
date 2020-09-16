@@ -16,7 +16,7 @@ tags:
 author: hoyeong
 ---
 
-# Vision - GPS 데이터 통합 주행 [첫 걸음]
+# Vision - GPS 데이터 통합 주행 Part 1. [첫 걸음]
 
 ## 기존 주행 방법
 차량이 도로를 주행하려면 어떤 데이터를 이용해야할까?   
