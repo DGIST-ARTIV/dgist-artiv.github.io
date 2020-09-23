@@ -54,27 +54,27 @@ sudo apt-get install nvidia-driver-(버전)
 ### 환경 설정 2단계: Cuda 설치하기
 1. 그래픽 드라이버에 맞는 쿠다를 설치해야한다. 나는 runfile을 통해 쿠다를 설치했다. 
 runfile은 Nvidia development 사이트에서 다운 받을 수 있다. 
-2. 설치하기
+2. 설치하기   
 우리는 쿠다 10.0을 이용했다.
 ~~~(bash)
 sudo sh cuda_10.0.130.410.48_linux.run
 ~~~
-하고 q를 쳐주면 다음과 같은 질문들을 한다. 
-> Do you accept the previously read EULA? accept/decline/quit: accept   
-Install NVIDIA Accelerated Graphics Driver for Linux-x86_64 430.40? (y)es/(n)o/(q)uit: n   
-Install the CUDA 10.0 Toolkit? (y)es/(n)o/(q)uit: y   
-Enter Toolkit Location [ default is /usr/local/cuda-8.0 ]: Enter 치기   
-Do you want to install a symbolic link at /usr/local/cuda? (y)es/(n)o/(q)uit: y   
-Install the CUDA 10.0 Samples? (y)es/(n)o/(q)uit: y   
-Enter CUDA Samples Location [ default is /home/python-kim ]: Enter 치기   
+하고 q를 쳐주면 다음과 같은 질문들을 한다. 대답은 다음과 같이 해준다.   
+> Do you accept the previously read EULA? accept/decline/quit: **accept** 
+Install NVIDIA Accelerated Graphics Driver for Linux-x86_64 430.40? (y)es/(n)o/(q)uit: **n**   
+Install the CUDA 10.0 Toolkit? (y)es/(n)o/(q)uit: **y**   
+Enter Toolkit Location [ default is /usr/local/cuda-8.0 ]: **Enter 치기**   
+Do you want to install a symbolic link at /usr/local/cuda? (y)es/(n)o/(q)uit: **y**   
+Install the CUDA 10.0 Samples? (y)es/(n)o/(q)uit: **y**   
+Enter CUDA Samples Location [ default is /home/python-kim ]: **Enter 치기**   
 
-쿠다 10.0 패치도 설치해준다.
+쿠다 10.0 패치도 설치해준다.   
 ~~~(bash)
 sudo sh cuda_10.0.130.1_linux.run
 ~~~
-다음과 같은 화면이 뜰 것이다.   
-> Do you accept the previously read EULA? accept/decline/quit: accept   
-Enter CUDA Toolkit installation directory [ default is /usr/local/cuda-10.0 ]: Enter 치기   
+다음과 같은 화면이 뜰 것이다. 다음과 같은 대답을 해준다.    
+> Do you accept the previously read EULA? accept/decline/quit: **accept**   
+Enter CUDA Toolkit installation directory [ default is /usr/local/cuda-10.0 ]: **Enter 치기**   
 Installation complete!
 Installation directory: /usr/local/cuda-10.0
 
@@ -88,11 +88,11 @@ export PATH=$PATH:/usr/local/cuda-10.0/bin
 export CUDADIR=/usr/local/cuda-10.0
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.0/lib64
 ~~~
-4. bashrc 소스해주기
+4. bashrc 소스해주기   
 ~~~(bash)
 source ~/.bashrc
 ~~~
 
-드디어 쿠다 설치가 끝났다!!!
+드디어 쿠다 설치가 끝났다!!!   
 생각보다 블로그 글이 길어져서 cudnn과 tensorflow, pytorch, opencv 설치는 2탄에 계속..
 
