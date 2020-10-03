@@ -34,5 +34,8 @@ permalink: /asd/
     3.2 watchDogs - Self-diagnostics   
     3.3 RealTime Scheduler   
     3.4 ARTIV Dashboard   
+    
+* Above features are in beta test progress, we will open soon at our github (dgist-artiv)
+
 
 
