@@ -1,7 +1,7 @@
 ---
 date: 2020-02-14
 layout: post
-title: Camera, Lense Selection and Setting
+title: Camera, Lens Selection and Setting
 subtitle: 카메라, 렌즈 선정 및 셋팅
 description: 카메라, 렌즈 선정 및 셋팅
 image: https://www.flirkorea.com/globalassets/imported-assets/image/grasshopper3_frontback_usb.png
@@ -10,7 +10,7 @@ tags:
   - autonomous
   - vision
   - camera
-  - lense
+  - lens
 author: gu
 ---
 # 0. 시작
@@ -50,7 +50,3 @@ Date : 2020.02.14.
 
 ## 최종 구매
 카메라 선정 기준은 높은 프레임 수이고, 렌즈의 선정 기준은 넓은 FOV였다. 이를 고려하여 FLIR Grasshopper3 USB3 [링크](https://www.flir.com/products/grasshopper3-usb3?model=GS3-U3-32S4C-C)와 ACH0518M10M 렌즈를 구매하였다.  
-
-
-
-
