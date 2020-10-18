@@ -4,7 +4,7 @@ remote_theme : thiagorossener/jekflix-template
 # Site settings
 name: ARTIV | DGIST Lab.
 title:          DGIST ARTIV Tech Blog
-description:    "DGIST ARTIV Tech blog"
+description:    "DGIST ARTIV 자율주행 기술 블로그, ARTIV IV Lab"
 url:            "https://dgist-artiv.github.io"
 
 show_hero: true
