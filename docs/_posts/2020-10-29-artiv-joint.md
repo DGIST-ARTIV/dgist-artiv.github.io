@@ -4,8 +4,8 @@ layout: post
 title: ARTIV JOINT
 subtitle: Mediating Node for Integrated Autonomous Driving, ARTIV JOINT
 description: Mediating Node for Integrated Autonomous Driving, ARTIV JOINT
-image: ![image (3)](https://user-images.githubusercontent.com/59792475/97580902-42bae480-1a37-11eb-8672-4262a32d075a.png)
-optimized_image: ![image (3)](https://user-images.githubusercontent.com/59792475/97580902-42bae480-1a37-11eb-8672-4262a32d075a.png)
+image: https://user-images.githubusercontent.com/59792475/97580902-42bae480-1a37-11eb-8672-4262a32d075a.png
+optimized_image: https://user-images.githubusercontent.com/59792475/97580902-42bae480-1a37-11eb-8672-4262a32d075a.png
 category: integratedsw
 tags:
   - autonomous
