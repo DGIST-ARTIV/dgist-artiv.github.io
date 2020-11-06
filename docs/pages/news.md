@@ -14,7 +14,5 @@ permalink: /news/
 
 ### 2020.10.24. Field Test to KIAPI Proving Ground
 - Our research team came for field testing at the Proving Ground of the Intelligent Vehicle Research Institute (KIAPI) in Daegu with our autonomous driving test platform.
-   
-|![KakaoTalk_Photo_2020-11-06-21-58-59-1](https://user-images.githubusercontent.com/25432456/98368873-60adc800-207b-11eb-9041-0c1a53e31a61.jpeg)|![KakaoTalk_Photo_2020-11-06-21-58-59-2](https://user-images.githubusercontent.com/25432456/98368851-58558d00-207b-11eb-8ce8-6aa74a8dd96a.jpeg)|
-|---|---|
+   ![KakaoTalk_Photo_2020-11-06-21-58-59-1](https://user-images.githubusercontent.com/25432456/98368873-60adc800-207b-11eb-9041-0c1a53e31a61.jpeg)|
 
