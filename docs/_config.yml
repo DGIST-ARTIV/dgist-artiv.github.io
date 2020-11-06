@@ -19,6 +19,10 @@ menu:
     url: /category
   - title: Self Driving SW(Beta)
     url: /asd
+  - title: Publication
+    url: /publication
+  - title: News
+    url: /news
 
 categories_folder: category
 
