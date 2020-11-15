@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: ![lane](https://user-images.githubusercontent.com/53460541/93749904-af231680-fc35-11ea-9af0-598ab021632b.jpg)
+photo: https://user-images.githubusercontent.com/53460541/99193125-44680480-27ba-11eb-9070-44f7c5125b39.jpg
 name: eunbin
 display_name: Eunbin Seo
 position: Next Generation Transportation Research System(NGTRS) Part leader
