@@ -41,6 +41,7 @@ author: jaeseung
 Kalman filter는 로봇의 state를 추정하기 위해 가장 흔히 사용되는 방법입니다. 주변 물체들을 prediction step과 correction step을 통해 물체의 움직임에 대한 결과를 낼 수 있는데, 이 방식을 사용하면 불규칙한 input data에도 비교적 정확한 output data를 얻을 수 있습니다.
 왼쪽은 Tracking 결과, 오른쪽은 카메라로 찍은 결과입니다.
 
+
 |<img src="https://user-images.githubusercontent.com/59762212/99184582-54b2bc00-2787-11eb-8733-e40243a4d21d.png" width="600"> |<img src="https://user-images.githubusercontent.com/59762212/99184596-65fbc880-2787-11eb-9ba5-467e6b745c2e.png" width="600"> |
 |---|---|
 
