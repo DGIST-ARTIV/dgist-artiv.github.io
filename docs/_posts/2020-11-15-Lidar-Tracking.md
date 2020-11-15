@@ -4,7 +4,7 @@ layout: post
 title: Lidar Segmentation & Tracking
 subtitle: 라이다 인식 및 추적
 description: 라이다 인식 및 추적
-image: https://user-images.githubusercontent.com/25432456/91639157-9f0d8200-ea4f-11ea-8472-4ba8e84ead2e.jpeg
+image: https://user-images.githubusercontent.com/59762212/99184582-54b2bc00-2787-11eb-8733-e40243a4d21d.png
 category: lidar
 tags:
   - autonomous
@@ -21,19 +21,19 @@ author: jaeseung
 
 먼저 Segmentation을 하기 위해 간단한 Machine Learning을 사용하는데, KNN(K-nearest neighbor)알고리즘을 사용하였습니다.
 
-<https://user-images.githubusercontent.com/59762212/99184571-3a78de00-2787-11eb-89d2-c867a9ba6bf3.png>
+![img](https://user-images.githubusercontent.com/59762212/99184571-3a78de00-2787-11eb-89d2-c867a9ba6bf3.png)
 
 물체의 중앙이라고 판단되는 점들을 찾아 같은 물체를 나타내는 점이라고 판단되는 주변의 가까운 점들을 포함해 나갑니다. 더이상 점들 주변에 가까운 점이 없다면 연산을 그만두고 하나의 물체로 판단을 합니다. 이러한 방식을 반복하여 Roi(Region of interest)내 물체라고 생각되는 점군을 나눈 후, 또 한 번의 가까운 거리에 있는 점군끼리 merge할 것인가에 대해 연산하여 최종 segmentation 결과를 도출합니다.
 한편 현재 사용하고 있는 라이다는 16채널의 저채널 모델로, segmentation 결과 중 원거리로 갈수록 채널의 ring간 간격이 넓어져 같은 물체지만 채널마다 다른 물체로 인식하는 현상이 발생하였습니다. 이에 거리에 대한 클러스터링 가중치를 별도로 부가하여 거리별 segmentation 성능이 일정하게 나오도록 설계하였습니다. 이 방법은 분명 원거리에서 물체의 GT(Ground Truth)와 실제로 차이가 나는 결과가 나올 수 있으나, 이는 의도된 설계입니다. 센서 퓨전을 위한 개발된 저채널용 알고리즘입니다.
 
-<https://user-images.githubusercontent.com/59762212/99184715-529d2d00-2788-11eb-8c1e-ff6be33e5554.png>
+![img](https://user-images.githubusercontent.com/59762212/99184715-529d2d00-2788-11eb-8c1e-ff6be33e5554.png)
 
 다음은 Tracking에 대한 설명입니다. Tracking을 하기 위해서 Sementation 결과를 이용하여 Kalman filter를 사용하였습니다. 
 
-<https://user-images.githubusercontent.com/59762212/99184575-495f9080-2787-11eb-8ebd-0b1049633ac5.png>
+![img](https://user-images.githubusercontent.com/59762212/99184575-495f9080-2787-11eb-8ebd-0b1049633ac5.png)
 
 Kalman filter는 로봇의 state를 추정하기 위해 가장 흔히 사용되는 방법입니다. 주변 물체들을 prediction step과 correction step을 통해 물체의 움직임에 대한 결과를 낼 수 있는데, 이 방식을 사용하면 불규칙한 input data에도 비교적 정확한 output data를 얻을 수 있습니다.
 왼쪽은 Tracking 결과, 오른쪽은 카메라로 찍은 
 
-<https://user-images.githubusercontent.com/59762212/99184582-54b2bc00-2787-11eb-8733-e40243a4d21d.png> <https://user-images.githubusercontent.com/59762212/99184596-65fbc880-2787-11eb-9ba5-467e6b745c2e.png>
+![img](https://user-images.githubusercontent.com/59762212/99184582-54b2bc00-2787-11eb-8733-e40243a4d21d.png) ![img](https://user-images.githubusercontent.com/59762212/99184596-65fbc880-2787-11eb-9ba5-467e6b745c2e.png)
 
