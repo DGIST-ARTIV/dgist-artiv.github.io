@@ -24,7 +24,7 @@ author: jaeseung
 먼저 Segmentation을 하기 위해 간단한 Machine Learning을 사용하는데, K-means 알고리즘을 사용하였습니다.  
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/59762212/99184571-3a78de00-2787-11eb-89d2-c867a9ba6bf3.png" width="400">
+<img src="https://user-images.githubusercontent.com/59762212/99187032-89c70a80-2797-11eb-8252-609cfa3f0f32.png" width="400">
 </p>
 
 초기에 설정한 점의 개수로 물체의 중앙이라고 판단되는 점들을 찾아 같은 물체를 나타내는 점이라고 판단되는 주변의 가까운 점들을 포함해 나갑니다. 이때 최적이라고 생각되는 중심이 계속 바뀌며, 더이상 점들 주변에 가까운 점이 없다면 연산을 그만두고 하나의 물체로 판단을 합니다. 이러한 방식을 반복하여 Roi(Region of interest) 내 물체라고 생각되는 점군을 나눈 후, 또 한 번의 가까운 거리에 있는 점군끼리 merge할 것인가에 대해 연산하여 최종 segmentation 결과를 도출합니다.
