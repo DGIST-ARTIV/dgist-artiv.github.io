@@ -4,7 +4,7 @@ layout: post
 title: Lidar Segmentation & Tracking
 subtitle: 라이다 인식 및 추적
 description: 라이다 인식 및 추적
-image: https://user-images.githubusercontent.com/59762212/99184582-54b2bc00-2787-11eb-8733-e40243a4d21d.png
+image: https://user-images.githubusercontent.com/59762212/99184715-529d2d00-2788-11eb-8c1e-ff6be33e5554.png
 category: lidar
 tags:
   - autonomous
