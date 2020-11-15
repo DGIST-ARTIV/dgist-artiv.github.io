@@ -31,7 +31,7 @@ author: eunbin
 
 ### 환경 설정 1단계: graphic card에 맞는 driver 설치하기
 0. 내가 가지고 있는 graphic card가 뭐지? 확인하기
-Titan X, Titan Xp, Gtx 7080ti 등등...
+Titan X, Titan Xp, Gtx 1080ti 등등...
 1. repository 추가
 ~~~(bash)
 sudo add-apt-repository ppa:graphics-drivers/ppa
