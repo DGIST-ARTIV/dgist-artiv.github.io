@@ -42,6 +42,6 @@ Kalman filter는 로봇의 state를 추정하기 위해 가장 흔히 사용되�
 왼쪽은 Tracking 결과, 오른쪽은 카메라로 찍은 결과입니다.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/59762212/99185054-9f820300-278a-11eb-9897-7285528d8fe5.png" width="400">
+<img src="https://user-images.githubusercontent.com/59762212/99185054-9f820300-278a-11eb-9897-7285528d8fe5.png" width="1000">
 </p>
 
