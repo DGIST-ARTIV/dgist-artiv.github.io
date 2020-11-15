@@ -49,10 +49,10 @@ python ROS_monodepth.py --model_name [mono+stereo_640x192] --width [width] --hei
 ```
 
 ## Execution Result
-### cv2를 이용하여 읽은 이미지를 이용하여 depth 추정 후, cv2로 출력 ([depth_video.py](https://github.com/DGIST-ARTIV/VISION/blob/master/Depth/depth_video.py))
+cv2를 이용하여 읽은 이미지를 이용하여 depth 추정 후, cv2로 출력 ([depth_video.py](https://github.com/DGIST-ARTIV/VISION/blob/master/Depth/depth_video.py))
 <p align="center"><img src="https://user-images.githubusercontent.com/59161083/87166967-45b68b80-c307-11ea-9b86-ece82858d94d.gif" width="150%" height="150%"></img></p>
 
-### ROS Image topic으로 받은 원본 이미지를 이용하여 depth를 추정한 후, ROS Image topic으로 publish ([ROS_monodepth.py](https://github.com/DGIST-ARTIV/VISION/blob/master/Depth/ROS_monodepth.py))
+ROS Image topic으로 받은 원본 이미지를 이용하여 depth를 추정한 후, ROS Image topic으로 publish ([ROS_monodepth.py](https://github.com/DGIST-ARTIV/VISION/blob/master/Depth/ROS_monodepth.py))
 <p align="center"><img src="https://user-images.githubusercontent.com/59161083/87181071-a7cdbb80-c31c-11ea-9169-1b0c5ea35e00.gif" width="150%" height="150%"></img></p>
 
 ### 해상도에 따른 성능 변화   
