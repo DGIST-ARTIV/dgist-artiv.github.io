@@ -2,8 +2,8 @@
 date: 2020-11-16
 layout: post
 title: Side Occupancy Check
-subtitle: 차량 양측면의 장애물 여부 판단(네이버 랩스 따라잡기!)
-description: 차량 양측면의 장애물 여부 판단(네이버 랩스 따라잡기!)
+subtitle: 차량 양측면의 장애물 여부 판단
+description: 차량 양측면의 장애물 여부 판단
 image: /assets/img/SideOccupancy_resize.gif
 category: vision
 tags:
@@ -27,11 +27,11 @@ OpenCV: 4.2.0
 GPU: RTX 2080Ti x 2   
 
 ## Sensor Specification
-Camera: logitech c920e   
-Lens: Wide-angle lens for smartphones   
+**Camera:** logitech c920e   
+**Lens:** Wide-angle lens for smartphones   
 <p align="center"><img src="https://user-images.githubusercontent.com/59161083/99421650-f54cdb80-2941-11eb-9b3c-71db246c64b9.jpg" width="50%" height="30%"></img></p>
 
-### without ros opencv
+## How?
 ```(python)
 python3 depth_video.py --model_name [mono+stereo_640x192] --width [width] --height [height] 
 ```
