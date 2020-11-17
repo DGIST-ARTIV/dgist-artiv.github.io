@@ -39,7 +39,7 @@ GPU: RTX 2080Ti x 2
 ## How?
 차량의 양측면에 부착한 카메라를 통해 얻은 이미지를 이용하여, 차량 양측면의 Occupancy 정보를 얻어야 한다.
 이를 위해, 아래와 같은 구조의 네트워크를 사용하였다.
-<p align="center"><img src="https://user-images.githubusercontent.com/59161083/99424497-15ca6500-2945-11eb-81f5-c5f54d2d712f.PNG" width="50%" height="50%"></p>   
+<p align="center"><img src="https://user-images.githubusercontent.com/59161083/99424497-15ca6500-2945-11eb-81f5-c5f54d2d712f.PNG" width="200%" height="200%"></p>   
 
 이를 사용한 결과는 아래와 같다. 모델의 output이 0.5보다 크면 OPEN, 0.5보다 작으면 BLOCK으로 표시하였다.   
 
