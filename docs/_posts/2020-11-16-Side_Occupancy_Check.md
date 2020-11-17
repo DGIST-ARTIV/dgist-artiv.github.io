@@ -57,3 +57,4 @@ GPU: RTX 2080Ti x 2
 /SideOccupancy/Right
 ```
 각 토픽의 메세지는 BLOCK인 경우 0, OPEN인 경우 1의 값을 갖는다.
+
