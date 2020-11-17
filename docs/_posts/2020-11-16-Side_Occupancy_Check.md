@@ -29,7 +29,7 @@ GPU: RTX 2080Ti x 2
 ## Sensor Specification
 Camera: logitech c920e   
 Lens: Wide-angle lens for smartphones   
-<p align="center"><img src="https://user-images.githubusercontent.com/59161083/99421650-f54cdb80-2941-11eb-9b3c-71db246c64b9.jpg" width="150%" height="150%"></img></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/59161083/99421650-f54cdb80-2941-11eb-9b3c-71db246c64b9.jpg" width="50%" height="30%"></img></p>
 
 ### without ros opencv
 ```(python)
