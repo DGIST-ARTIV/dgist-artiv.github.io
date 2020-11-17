@@ -50,4 +50,9 @@ GPU: RTX 2080Ti x 2
 
 ## ROS Application
 차량의 왼쪽, 오른쪽 Occupancy를 확인한 후, 그 결과를 ROS의 Int16 message 형태로 publish한다.
-각 토픽의 이름은 /SideOccupancy/Left, /SideOccupancy/Right 이고, BLOCK인 경우 0, OPEN인 경우 1  
+각 토픽의 이름은 아래와 같다.
+```
+/SideOccupancy/Left
+/SideOccupancy/Right
+```
+BLOCK인 경우 0, OPEN인 경우 1 
