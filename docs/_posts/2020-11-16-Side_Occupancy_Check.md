@@ -55,4 +55,4 @@ GPU: RTX 2080Ti x 2
 /SideOccupancy/Left
 /SideOccupancy/Right
 ```
-BLOCK인 경우 0, OPEN인 경우 1 
+BLOCK인 경우 0, OPEN인 경우 1의 값을 갖는다.
