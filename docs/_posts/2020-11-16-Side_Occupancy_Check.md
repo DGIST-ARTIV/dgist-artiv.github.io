@@ -41,11 +41,11 @@ GPU: RTX 2080Ti x 2
 이를 위해, 아래와 같은 구조의 네트워크를 사용하였다.
 <p align="center"><img src="https://user-images.githubusercontent.com/59161083/99424497-15ca6500-2945-11eb-81f5-c5f54d2d712f.PNG" width="50%" height="50%"></img></p>
 
-이를 사용한 결과는 아래와 같다. 모델의 output이 0.5보다 크면 OPEN, 0.5보다 작으면 BLOCK
+이를 사용한 결과는 아래와 같다. 모델의 output이 0.5보다 크면 OPEN, 0.5보다 작으면 BLOCK으로 표시하였다.   
 <p align="center"><img src="../assets/img/SideOccupancy_resize.gif" width="150%" height="150%"></img></p>
 
-이제, 양측면 카메라의 이미지를 하나의 모델로 추론해보자.
-가시성을 높이기 위해 OPEN인 경우 초록색, BLOCK인 경우 빨간색으로 표시하였다. 
+이제, 양측면 카메라의 이미지를 하나의 모델로 추론해보자.   
+가시성을 높이기 위해 OPEN인 경우 초록색, BLOCK인 경우 빨간색으로 표시하였다.    
 
 
 
