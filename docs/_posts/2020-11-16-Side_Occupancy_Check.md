@@ -9,11 +9,10 @@ category: vision
 tags:
   - autonomous
   - vision
-  - ROS
+  - Deep Learning
+  - DL
   - ros melodic
-  - depth
-  - depth estimation
-  - monodepth2
+  - lane change
 author: gu
 ---
 Author : 이  구 <br/>
@@ -27,8 +26,8 @@ GPU: RTX 2080Ti x 2
 
 ## Why?
 차선 변경과 교차로에서의 안전한 주행을 위해, 차량 양측면의 장애물 존재 여부를 알아야 했다.   
-카메라는 루프에, 라이다는 범퍼 가운데에 설치되어 있는데 옆은 어떻게 볼까?
-차에 새로운 카메라를 달아주기로 했다.   
+카메라는 루프에, 라이다는 범퍼 가운데에 설치되어 있는데 옆은 어떻게 볼까?   
+차에 새로운 카메라를 달아주기로 했다!   
 
 ## Sensor Specification
 **Camera:** logitech c920e   
