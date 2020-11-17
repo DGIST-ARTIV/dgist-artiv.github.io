@@ -48,6 +48,6 @@ GPU: RTX 2080Ti x 2
 이제, 양측면 카메라의 이미지를 하나의 모델로 추론해보자.   
 가시성을 높이기 위해 OPEN인 경우 초록색, BLOCK인 경우 빨간색으로 표시하였다.    
 
-
-
-
+## ROS Application
+차량의 왼쪽, 오른쪽 Occupancy를 확인한 후, 그 결과를 ROS의 Int16 message 형태로 publish한다.
+각 토픽의 이름은 /SideOccupancy/Left, /SideOccupancy/Right 이고, BLOCK인 경우 0, OPEN인 경우 1  
