@@ -49,10 +49,10 @@ GPU: RTX 2080Ti x 2
 가시성을 높이기 위해 OPEN인 경우 초록색, BLOCK인 경우 빨간색으로 표시하였다.    
 
 ## ROS Application
-차량의 왼쪽, 오른쪽 Occupancy를 확인한 후, 그 결과를 ROS의 Int16 message 형태로 publish한다.
+차량의 왼쪽, 오른쪽 Occupancy를 확인한 후, 그 결과를 ROS의 Int16 형태로 publish한다.
 각 토픽의 이름은 아래와 같다.
 ```
 /SideOccupancy/Left
 /SideOccupancy/Right
 ```
-BLOCK인 경우 0, OPEN인 경우 1의 값을 갖는다.
+각 토픽의 메세지는 BLOCK인 경우 0, OPEN인 경우 1의 값을 갖는다.
