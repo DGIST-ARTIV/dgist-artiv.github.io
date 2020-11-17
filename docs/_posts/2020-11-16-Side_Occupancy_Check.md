@@ -2,8 +2,8 @@
 date: 2020-11-16
 layout: post
 title: Side Occupancy Check
-subtitle: Monodepth2를 이용해 얻은 real-time depthmap을 ROS로 publish 하기!
-description: Monodepth2를 이용해 얻은 real-time depthmap을 ROS로 publish 하기!
+subtitle: 차량 양측면의 장애물 여부 판단(네이버 랩스 따라잡기!)
+description: 차량 양측면의 장애물 여부 판단(네이버 랩스 따라잡기!)
 image: https://user-images.githubusercontent.com/59161083/87166967-45b68b80-c307-11ea-9b86-ece82858d94d.gif
 category: vision
 tags:
@@ -22,16 +22,10 @@ Author : 이  구 <br/>
  > reference: https://github.com/nianticlabs/monodepth2
  
 ## Environment Setting
-OS: Ubuntu 18.04
-Camera: Logitech BRIO  
-pytorch: 1.2.0   
-CUDA: 10.0   
-cudnn: 7.6.5   
-opencv: 4.3.0   
-GPU: RTX 2080Ti    
-ROS: melodic
-
-## Why?
+Tensorflow: 1.14.0
+Keras: 2.3.1
+OpenCV: 4.2.0
+GPU: RTX 2080Ti x 2
 
 ## Usage
 하나의 카메라를 사용하여 실시간으로 depth map을 뽑을 수 있다. 
