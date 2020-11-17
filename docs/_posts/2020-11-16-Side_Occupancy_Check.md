@@ -16,9 +16,8 @@ tags:
   - monodepth2
 author: gu
 ---
-
-# Side Occupancy Check
 Author : 이  구 <br/>
+Date: 2020.11.16
 
 ## Environment Setting
 Tensorflow: 1.14.0   
@@ -26,22 +25,23 @@ Keras: 2.3.1
 OpenCV: 4.2.0   
 GPU: RTX 2080Ti x 2   
 
+## Why?
+차선 변경과 교차로에서의 안전한 주행을 위해, 차량 양측면의 장애물 존재 여부를 알아야 했다.
+카메라는 루프에, 라이다는 범퍼 가운데에 설치되어 있는데 옆은 어떻게 볼까?
+차에 새로운 카메라를 달아주기로 했다.
+
 ## Sensor Specification
 **Camera:** logitech c920e   
-**Lens:** Wide-angle lens for smartphones   
+**Lens:** Wide-angle lens for smartphones
+
+쉽게 구할 수 있는 웹캠에 광각 렌즈를 붙여서 사용하였다.
 <p align="center"><img src="https://user-images.githubusercontent.com/59161083/99421650-f54cdb80-2941-11eb-9b3c-71db246c64b9.jpg" width="50%" height="30%"></img></p>
 
 ## How?
-```(python)
-python3 depth_video.py --model_name [mono+stereo_640x192] --width [width] --height [height] 
-```
-* [mono+stereo_640x192] 값을 바꾸어 주면 다른 데이터로 학습된 모델을 사용할 수 있다. 모델의 종류 및 차이점은 [여기](https://github.com/nianticlabs/monodepth2)서 확인
-* [width], [height] 값을 조절하여 depth map의 해상도를 설정할 수 있다.
 
-### with ros
-```(python)
-python ROS_monodepth.py --model_name [mono+stereo_640x192] --width [width] --height [height] 
-```
+
+
+
 
 ## Execution Result
 cv2를 이용하여 읽은 이미지를 이용하여 depth 추정 후, cv2로 출력 ([depth_video.py](https://github.com/DGIST-ARTIV/VISION/blob/master/Depth/depth_video.py))
