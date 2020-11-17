@@ -4,7 +4,7 @@ layout: post
 title: Side Occupancy Check
 subtitle: 차량 양측면의 장애물 여부 판단(네이버 랩스 따라잡기!)
 description: 차량 양측면의 장애물 여부 판단(네이버 랩스 따라잡기!)
-image: ./assets/img/SideOccupancy_resize.gif
+image: ../assets/img/SideOccupancy_resize.gif
 category: vision
 tags:
   - autonomous
