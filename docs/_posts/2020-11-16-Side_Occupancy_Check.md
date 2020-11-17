@@ -26,9 +26,9 @@ OpenCV: 4.2.0
 GPU: RTX 2080Ti x 2   
 
 ## Why?
-차선 변경과 교차로에서의 안전한 주행을 위해, 차량 양측면의 장애물 존재 여부를 알아야 했다.
+차선 변경과 교차로에서의 안전한 주행을 위해, 차량 양측면의 장애물 존재 여부를 알아야 했다.   
 카메라는 루프에, 라이다는 범퍼 가운데에 설치되어 있는데 옆은 어떻게 볼까?
-차에 새로운 카메라를 달아주기로 했다.
+차에 새로운 카메라를 달아주기로 했다.   
 
 ## Sensor Specification
 **Camera:** logitech c920e   
@@ -38,25 +38,22 @@ GPU: RTX 2080Ti x 2
 <p align="center"><img src="https://user-images.githubusercontent.com/59161083/99421650-f54cdb80-2941-11eb-9b3c-71db246c64b9.jpg" width="50%" height="30%"></img></p>
 
 ## How?
+차량의 양측면에 부착한 카메라를 통해 얻은 이미지를 이용하여, 차량 양측면의 Occupancy 정보를 얻어야 한다.
+이를 위해, 아래와 같은 
+
+<p align="center"><img src="https://user-images.githubusercontent.com/59161083/99424497-15ca6500-2945-11eb-81f5-c5f54d2d712f.PNG" width="70%" height="70%"></img></p>
 
 
 
 
+### 해상도에 따른 성능 변화
 
-## Execution Result
-cv2를 이용하여 읽은 이미지를 이용하여 depth 추정 후, cv2로 출력 ([depth_video.py](https://github.com/DGIST-ARTIV/VISION/blob/master/Depth/depth_video.py))
-<p align="center"><img src="https://user-images.githubusercontent.com/59161083/87166967-45b68b80-c307-11ea-9b86-ece82858d94d.gif" width="150%" height="150%"></img></p>
-
-ROS Image topic으로 받은 원본 이미지를 이용하여 depth를 추정한 후, ROS Image topic으로 publish ([ROS_monodepth.py](https://github.com/DGIST-ARTIV/VISION/blob/master/Depth/ROS_monodepth.py))
-<p align="center"><img src="https://user-images.githubusercontent.com/59161083/87181071-a7cdbb80-c31c-11ea-9169-1b0c5ea35e00.gif" width="70%" height="70%"></img></p>
-
-### 해상도에 따른 성능 변화   
-| resolution | fps |
-|:--------:|:--------:|
-| 720 x 480 | 약 36 fps |
-| 1080 x 720 | 약 23 fps |
-| 1920 x 1080 | 약 8 fps |
-
+| resolution | fps |   
+|:--------:|:--------:|   
+| 720 x 480 | 약 36 fps |   
+| 1080 x 720 | 약 23 fps |   
+| 1920 x 1080 | 약 8 fps |   
+ 
 
 ## Improvement
 ### 기존의 ROS node graph
