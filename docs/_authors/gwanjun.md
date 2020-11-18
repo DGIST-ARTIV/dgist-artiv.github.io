@@ -4,6 +4,6 @@ photo: https://avatars1.githubusercontent.com/u/25432456?s=460&u=9072cd95bc308c7
 name: gwanjun
 display_name: Gwanjun Shin
 position: Tech Leader
-bio: Just a developer.
+bio: master at {Vision, Lidar, Planning, IntegratedSW}
 github_username: shinkansan
 ---
