@@ -53,7 +53,7 @@ Vision과 GPS를 통합하여야 하는 이유를 다시 정리해보자.
 
 ## Method 1
 실제 주행 테스트를 해보면서 차선과 GPS가 각자 약점을 보이는 곳을 확인했으며, 패턴이 비슷한 것을 이용하였다.   
-<p align="center"><img src="https://github.com/DGIST-ARTIV/dgist-artiv.github.io/blob/master/docs/media/best_case.png" width="80%" height="80%"></p>   
+<p align="center"><img src="/media/best_case.png" width="80%" height="80%"></p>   
 
 먼저 위 사진[사진 1]을 보자.   
 초록색 점은 차선에 의한 경로이고 빨간색 점은 GPS에 의한 경로이다.   
@@ -62,7 +62,7 @@ Vision과 GPS를 통합하여야 하는 이유를 다시 정리해보자.
 이때는 위에서 언급했던 것처럼 데이터 갱신 속도가 높은 차선을 기준으로 주행한다.   
 
 또 다른 경우를 확인해보자.   
-<p align="center"><img src="https://github.com/DGIST-ARTIV/dgist-artiv.github.io/blob/master/docs/media/gps_mode.png" width="80%" height="80%"></p>     
+<p align="center"><img src="/media/gps_mode.png" width="80%" height="80%"></p>     
 
 위 사진[사진 2]은 Vision이 약점을 가지는 차선이 끊긴 교차로 부분이다.   
 중간 차선을 의미하는 초록색 점이 원의 중심을 기준으로 많이 벗어나있는 것을 볼 수 있다.   
@@ -70,7 +70,7 @@ Vision과 GPS를 통합하여야 하는 이유를 다시 정리해보자.
 그렇다면 GPS는 대체 어디에서 약점을 보일까? 바로 하늘이 가려져있는 곳이다.   
 우리 학교 캠퍼스 같은 경우에는 터널이 그 예이다.   
 
-<p align="center"><img src="https://github.com/DGIST-ARTIV/dgist-artiv.github.io/blob/master/docs/media/vision_mode.png" width="80%" height="80%"></p>       
+<p align="center"><img src="/media/vision_mode.png" width="80%" height="80%"></p>       
 
 위 사진[사진 3]은 터널을 막 지나는 상황인데 경로가 바른 차선에 비해서 GPS에 의한 경로는 이상하다.   
 이는 [사진 2]에서 차선과 마찬가지로 원의 중심으로부터 경로가 많이 벗어나있다.   
