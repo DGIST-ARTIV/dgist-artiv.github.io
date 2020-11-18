@@ -25,9 +25,9 @@ author: hoyeong
 그에 따라서 카메라의 위치 및 각도도 바뀌게 되었다.   
 카메라는 이전보다 아이오닉을 기준으로 아래에, 그리고 뒤로 옮기게 되었다.   
 원래 이랬던 카메라가~   
-<p align="center"><img src="https://github.com/DGIST-ARTIV/dgist-artiv.github.io/blob/master/docs/media/camera_old.jpg" width="50%" height="50%"></img></p>
+<p align="center"><img src="/media/camera_old.jpg" width="50%" height="50%"></p>
 아래처럼 바뀌었다.   
-<p align="center"><img src="https://github.com/DGIST-ARTIV/dgist-artiv.github.io/blob/master/docs/media/camera_new.jpg" width="50%" height="50%"></img></p>   
+<p align="center"><img src="/media/camera_new.jpg" width="50%" height="50%"></p>   
 더 조촐해지고 색도 특이(?)해졌다.(애들이 욕하더라...ㅠㅠ)    
 하지만 이것은 단지 테스트를 위한 것일 뿐,    
 위치가 확정된다면 더욱 깔끔하고 방수도 잘 되는 지지대를 만들 예정이다!   
