@@ -56,11 +56,11 @@ ROS Image topic으로 받은 원본 이미지를 이용하여 depth를 추정한
 <p align="center"><img src="https://user-images.githubusercontent.com/59161083/87181071-a7cdbb80-c31c-11ea-9169-1b0c5ea35e00.gif" width="150%" height="150%"></img></p>
 
 ### 해상도에 따른 성능 변화   
-resolution | fps 
-------------|-----    
-720 x 480 | 약 36 fps    
-1080 x 720 | 약 23 fps    
-1920 x 1080 | 약 8 fps    
+resolution | fps    
+------------|-----      
+720 x 480 | 약 36 fps      
+1080 x 720 | 약 23 fps      
+1920 x 1080 | 약 8 fps      
 
 ## Improvement
 ### 기존의 ROS node graph
