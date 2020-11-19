@@ -4,8 +4,8 @@ layout: post
 title: Lane Keeping Assist Test[2]
 subtitle: Lane Keeping Assist Test
 description: Lane Keeping Assist Test
-image: https://github.com/DGIST-ARTIV/dgist-artiv.github.io/blob/master/docs/media/lane_detect.png
-optimized_image: https://github.com/DGIST-ARTIV/dgist-artiv.github.io/blob/master/docs/media/lane_detect.png
+image: /assets/img/night_integ_pict.jpg
+optimized_image: /assets/img/night_integ_pict.jpg
 category: control
 tags:
   - autonomous
