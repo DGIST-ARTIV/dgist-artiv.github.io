@@ -4,8 +4,8 @@ layout: post
 title: Vision and GPS Data Integration Driving [Part 3]
 subtitle: Vision과 GPS 데이터를 통합해 주행해보기 [Part 3]
 description: Vision과 GPS 데이터 중 하나를 상황에 따라 선택해서 교내 주행해보기 [Part 3]
-image: /assets/img/bright_integ_pict.jpg
-optimized_image: /assets/img/bright_integ_pict.jpg
+image: /assets/img/bright_vision_gps_integ_gif.gif
+optimized_image: /assets/img/bright_vision_gps_integ_gif.gif
 category: control
 tags:
   - Control
