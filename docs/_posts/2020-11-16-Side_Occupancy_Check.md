@@ -49,7 +49,7 @@ GPU: RTX 2080Ti x 2
 가시성을 높이기 위해 OPEN인 경우 초록색, BLOCK인 경우 빨간색으로 표시하였다.    
 아래의 영상은 테스트를 위해 서로 다른 두 영상을 이용한 결과이다.   
 
-<p align="center"><img src="https://user-images.githubusercontent.com/59161083/99703225-30821280-2ada-11eb-985b-81e066cb537c.gif" width="200%" height="200%"></p>   
+<p align="center"><img src="https://user-images.githubusercontent.com/59161083/99703225-30821280-2ada-11eb-985b-81e066cb537c.gif" width="200%" height="200%"></p> 
 
 ## ROS Application
 차량의 왼쪽, 오른쪽 Occupancy를 확인한 후, 그 결과를 ROS의 Int16 형태로 publish한다.
