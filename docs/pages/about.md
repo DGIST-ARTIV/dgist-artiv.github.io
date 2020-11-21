@@ -18,9 +18,9 @@ permalink: /about/
   4. Planning/Control alogorithm for Autonomous Vehicle
   5. HD Map and Integrated Localization Algorithm with SLAM and GNSS 
 
-| <img width="600" alt="Screen Shot 2020-07-06 at 0 27 12" src="https://user-images.githubusercontent.com/25432456/86535519-dfeb8d80-bf1b-11ea-92e1-6f214ff5af19.png"> |   
-| :---: |   
-| *Basic structure of ARTIV Shuttle* |
+| ![1600px-sensorLayout](https://user-images.githubusercontent.com/25432456/99877208-df8c2e80-2c3f-11eb-88ca-8b5efd8f1bd9.png)| ![1600px-sensorLayout_ext](https://user-images.githubusercontent.com/25432456/99877210-e31fb580-2c3f-11eb-80c8-0144c9a4cee8.png)|
+| :---: | :---: |
+| *Sensor Layout of ARTIV Shuttle* | *Ext Sensor Layout of ARTIV Shuttle*|
 
 
 
