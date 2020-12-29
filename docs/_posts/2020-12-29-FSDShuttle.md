@@ -4,7 +4,7 @@ layout: post
 title: ARTIV FSD Shuttle
 subtitle: 완전 자율주행 교내 셔틀 서비스 런칭
 description: 완전 자율주행 교내 셔틀 서비스 런칭
-image: /assets/img/fsd_preview.gif
+image: /assets/img/fsd_preview.gif 
 category: blog
 tags:
   - autonomous
