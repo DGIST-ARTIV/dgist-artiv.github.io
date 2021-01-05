@@ -5,5 +5,7 @@ name: junsang
 display_name: Junsang Ryu
 position: Researcher | Localization
 bio: DGIST Undergraduate Junior
+
+js52065@dgist.ac.kr
 github_username: js-ryu
 ---
