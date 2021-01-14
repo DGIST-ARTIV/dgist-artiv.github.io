@@ -1,9 +1,9 @@
 ---
 date: 2020-04-29
 layout: post
-title: Welcome, HYUNDAI IONIQ Electirc!
-subtitle: Hyundai Ioinq Electic 수령기
-description: Hyundai Ioinq Electic 수령기
+title: Welcome, HYUNDAI IONIQ Electric!
+subtitle: Hyundai Ioinq Electric 수령기
+description: Hyundai Ioinq Electric 수령기
 image: https://user-images.githubusercontent.com/50894726/104563663-469cf100-568d-11eb-81d0-1856ab3bb25f.jpg
 category: blog
 tags:
