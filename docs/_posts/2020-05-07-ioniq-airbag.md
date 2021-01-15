@@ -31,16 +31,38 @@ author: junsang
 
 ### 조수석 에어백 배선 제거
 
-GSW를 열심히 정독하다보니, 조수석 에어백이 배선으로 연결되어 있다는 사실을 알게 되었다.
+GSW를 열심히 정독하다보니, 조수석 에어백이 커넥터가 있다는 사실을 알게 되었다.
 
 이를 제거하면 가장 확실하게 에어백 무력화를 시킬 수 있을 것이라고 판단되어 진행하였다.
 
+우선 크래쉬패드를 분리하여야한다.  
+크러쉬 패드가 어디냐 하면...
+
+![image1](https://user-images.githubusercontent.com/50894726/104735246-b9d55e80-5784-11eb-8505-c0c4eaaf0771.jpg)
+
+대략 여기다.
+
+사실 사진은 나중에 모니터까지 설치된 이후의 모습이긴 한데, 마땅한 것이 없어 그냥 썼다..ㅎㅎ
+
+이제 분해를 시작해보자.
+
+![image2](https://user-images.githubusercontent.com/50894726/104735796-63b4eb00-5785-11eb-9835-7829812d8616.gif)
+(사진 출처 : 현대 GSW)
+
+![image3](https://user-images.githubusercontent.com/50894726/104733095-8cd37c80-5781-11eb-942b-8b2e50660c8c.jpg)
+
+조수석 문을 열고 대쉬보드 옆 뚜껑(?)을 열어주자. (공식명칭은 크래쉬 패드 사이드 커버)
+
+헤라 같이 지렛대의 원리를 이용할 수 있는 도구가 있어야 분리가 가능하다.  
+이때의 나는 제대로된 장비가 없어서 쇠자를 이용하였다..
+
+
+
+
 ![image1](https://user-images.githubusercontent.com/50894726/104687589-d9e42e00-5742-11eb-9ffc-b4a5d57e03d6.png)
 
-우선 
 
 
-![20200506_201105](https://user-images.githubusercontent.com/50894726/104733095-8cd37c80-5781-11eb-942b-8b2e50660c8c.jpg)
 ![20200506_203740](https://user-images.githubusercontent.com/50894726/104733141-9b219880-5781-11eb-949b-a87cacae2819.jpg)
 
 (작성중)
