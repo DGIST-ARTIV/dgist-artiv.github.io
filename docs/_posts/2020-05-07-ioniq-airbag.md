@@ -7,8 +7,8 @@ description: 아이오닉의 조수석 에어백을 무력화 시켜보자.
 image: https://user-images.githubusercontent.com/50894726/104732860-2a7a7c00-5781-11eb-91f7-38076c6aa276.jpg
 category: hwcomms
 tags:
-  - temporary_operating_permit
-  - TOP
+  - ioniq_electric
+  - airbag
 author: junsang
 ---
 아이오닉 일렉트릭 차량은 자율주행용으로 개발이 될 예정이다.
