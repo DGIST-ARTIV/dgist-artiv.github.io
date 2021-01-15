@@ -1,7 +1,7 @@
 ---
 date: 2020-05-06
 layout: post
-title: Let's Get a Temporary Driving Permit for Testing and Research Purposes!
+title: Let's Get a Temporary Driving Permit for Testing and Research!
 subtitle: 연구, 시험 목적용 임시운행허가를 받아보자.
 description: 연구, 시험 목적용 임시운행허가를 받아보자.
 image: https://user-images.githubusercontent.com/50894726/104684207-d8633780-573b-11eb-8c56-2497fe046972.jpg
