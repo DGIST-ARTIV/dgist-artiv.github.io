@@ -15,6 +15,8 @@ author: junsang
 
 ![image1](https://user-images.githubusercontent.com/50894726/104817058-2f632c80-5862-11eb-96fb-313672cbef3f.png)
 
+(좌측 상단 : 카카오 모빌리티, 우측 상단 : 라이드플럭스, 좌측 하단 : Uber, 우측 하단 : Voyage)
+
 우리도 뒤질 수 없기에 스티커를 붙이고자 하였고, 바로 작업에 착수하였다.
 
 ![iamge2](https://user-images.githubusercontent.com/50894726/104817250-7140a280-5863-11eb-878a-14ab254e615f.png)
