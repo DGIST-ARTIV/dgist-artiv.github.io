@@ -3,7 +3,7 @@ date: 2020-06-20
 layout: post
 title: Let's put the stickers on Ioniq Electric!
 subtitle: 아이오닉에 스티커를 붙여보자.
-description: 아이오닉에 스티커 붙여보자.
+description: 아이오닉에 스티커를 붙여보자.
 image: https://user-images.githubusercontent.com/50894726/104816778-81a34e00-5860-11eb-8d23-ea3570d55aa8.jpg
 category: blog
 tags:
