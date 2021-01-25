@@ -70,7 +70,7 @@ Default values for various parameters are specified in the ```nmea_serial_driver
 
 - gps_yaw ([std_msgs/Float64](http://docs.ros.org/en/melodic/api/std_msgs/html/msg/Float64.html))
   - The heading angle of the vehicle is expressed in a different form than ```gps_deg```(for path tracking part). The unit is deg, and the range is -180° to 180°. 0° is east, 90° is north, -90° is south, and 180° or -180° are west. The upper part is positive and the lower part is negative based on the +x axis.
-  - Path Tracking을 담당하는 파트에서 ```/gps_deg```와느 다른 좌표계로 형성된 yaw 데이터를 요구하여 추가하였다.
+  - Path Tracking을 담당하는 파트에서 ```/gps_deg```와는 다른 좌표계로 형성된 yaw 데이터를 요구하여 추가하였다.
   - 
   ![image2](https://user-images.githubusercontent.com/50894726/105725929-db94c980-5f6c-11eb-98a5-ddf57a287681.png)
 
