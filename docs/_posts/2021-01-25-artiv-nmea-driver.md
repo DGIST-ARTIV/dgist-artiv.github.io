@@ -14,6 +14,7 @@ tags:
   - localization
 author: junsang
 ---
+(썸네일용 사진입니다. 아래에 다시 써놨습니다 ㅎㅎ..)
 
 ## About [ARTIV_NMEA_DRIVER](https://github.com/js-ryu/for_ARTIV_Framework/tree/main/artiv_nmea_driver)
 
