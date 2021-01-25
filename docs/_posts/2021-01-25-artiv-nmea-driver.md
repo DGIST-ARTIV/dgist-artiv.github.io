@@ -64,7 +64,7 @@ Default values for various parameters are specified in the ```nmea_serial_driver
 
 - gps_deg ([std_msgs/Float64](http://docs.ros.org/en/melodic/api/std_msgs/html/msg/Float64.html))
   - Expressed the vehicle's heading angle. The unit is deg, and the range is 0° to 360°. 0° is north, 90° is east, 180° is south, and 270° is west.
-  - NMEA 데이터를 통해 차량의 heading angle을 파싱할 수 있다. 위에 작성한 것처럼 0도를 북쪽으로 하여 시계방향으로 회전하며 각도가 증가하느 형태이다.
+  - NMEA 데이터를 통해 차량의 heading angle을 파싱할 수 있다. 위에 작성한 것처럼 0도를 북쪽으로 하여 시계방향으로 회전하며 각도가 증가하는 형태이다.
   - 
   ![image1](https://user-images.githubusercontent.com/50894726/105725921-d8014280-5f6c-11eb-95c8-60c1cf3efa86.png)
 
