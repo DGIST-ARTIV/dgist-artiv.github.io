@@ -27,7 +27,7 @@ GNSS 장비로부터 NMEA신호를 받고, 이를 파싱하여 ROS로 Publish한
 - Maintainer: Ed Venator <evenator AT gmail DOT com>
 - Author: Eric Perko <eric AT ericperko DOT com>, Steven Martin
 - License: BSD
-- Source: git https://github.com/ros-drivers/nmea_navsat_driver.git (branch: melodic-devel)
+- Source: git [https://github.com/ros-drivers/nmea_navsat_driver.git](https://github.com/ros-drivers/nmea_navsat_driver.git) (branch: melodic-devel)
 
 현재 최신 artiv_nmea_driver 1.7.1은 [nmea_navsat_driver melodic-devel](https://github.com/ros-drivers/nmea_navsat_driver/tree/melodic-devel) 0.5.2를 기반으로 하고 있다.
 
@@ -93,8 +93,8 @@ ARTIV Framework의 경고장치 작동조건에 맞추어 아래의 상황일 �
 ARTIV Organization은 private이라 팀원이 아닌 사람은 접근할 수 없기에, 개인계정에 repo를 생성하였다.
 아래의 링크에서 다운로드 받을 수 있다.
 
-- git : https://github.com/js-ryu/for_ARTIV_Framework/tree/main/artiv_nmea_driver
-- Release : https://github.com/js-ryu/for_ARTIV_Framework/releases/tag/1.7.1
+- git : [https://github.com/js-ryu/for_ARTIV_Framework/tree/main/artiv_nmea_driver](https://github.com/js-ryu/for_ARTIV_Framework/tree/main/artiv_nmea_driver)
+- Release : [https://github.com/js-ryu/for_ARTIV_Framework/releases/tag/1.7.1](https://github.com/js-ryu/for_ARTIV_Framework/releases/tag/1.7.1)
 
 ---------------------------------------------------------------------------------------------
 
