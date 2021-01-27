@@ -1,10 +1,10 @@
 ---
-date: 2020-11-16
+date: 2021-01-27
 layout: post
 title: Selfmade DTG(WIP)
 subtitle: rosbag을 이용하여 차량의 주행정보를 계산하기!
 description: 자율주행 임시운행 허가를 위한 DTG 만들기
-image: /assets/img/SideOccupancy_resize.gif
+image: https://user-images.githubusercontent.com/59161083/105984936-2b46d280-60de-11eb-9411-8a07a1ea9b79.png
 category: vision
 tags:
   - automation
@@ -14,9 +14,9 @@ tags:
 author: gu
 ---
 Author : 이  구 <br/>
-Date: 2021.01.26
+Date: 2021.01.27
 
-<p align="center"><img src="https://user-images.githubusercontent.com/59161083/105984936-2b46d280-60de-11eb-9411-8a07a1ea9b79.png" width="100%" height="100%"></p>   
+<p align="center"><img src="https://user-images.githubusercontent.com/59161083/100884067-61a80d00-34f4-11eb-9633-f46dd25824f5.png" width="100%" height="100%"></p>   
 
 ## Environment Setting
 Bagpy must be installed.
