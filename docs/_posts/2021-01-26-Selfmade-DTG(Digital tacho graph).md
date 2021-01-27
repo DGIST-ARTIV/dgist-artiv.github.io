@@ -16,7 +16,7 @@ author: gu
 Author : 이  구 <br/>
 Date: 2021.01.26
 
-<p align="center"><img src="https://user-images.githubusercontent.com/59161083/100884067-61a80d00-34f4-11eb-9633-f46dd25824f5.png" width="100%" height="100%"></p>   
+<p align="center"><img src="https://user-images.githubusercontent.com/59161083/105984936-2b46d280-60de-11eb-9411-8a07a1ea9b79.png" width="100%" height="100%"></p>   
 
 ## Environment Setting
 Bagpy must be installed.
