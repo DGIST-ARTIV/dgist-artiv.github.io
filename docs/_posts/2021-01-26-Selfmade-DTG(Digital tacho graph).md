@@ -46,9 +46,11 @@ bagpy를 이용하면, Window 환경에서도 rosbag 파일을 쉽게 분석할 
 코드를 짜기 전에, 어떤 정보를 얻어야 할지 미리 생각해보자.
 법령에서 정한 네가지 항목은 각각 우리의 /Ioniq_info의 Auto Standby Switch, APS Feedback, BPS Feedback, Steering Angle에 대응한다.
 
-
-
-
+bagpy의 기능 중 하나인 bagreader라는 class를 이용하면, 아래와 같이 손쉽게 각 topic에 해당되는 csv 파일을 얻을 수 있다.
+```
+b = bagreader('[bag file name]')
+b.message_by_topic('/topic name')
+```
 ## ROS Application
 차량의 왼쪽, 오른쪽 Occupancy를 확인한 후, 그 결과를 ROS의 Int16 형태로 publish한다.
 각 토픽의 이름은 아래와 같다.
