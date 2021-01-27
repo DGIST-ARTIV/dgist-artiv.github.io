@@ -40,10 +40,15 @@ pip3 install bagpy
 또, 이와 별개로, 자율주행임시운행 허가를 위한 제출서류 중 하나인, 사전시험주행보고서의 항목들에 해당하는 정보(Auto/Manual 모드 별 주행거리, 평균 속도 등)들 역시 얻을 수 있어야 했다. 
 그래서, 우리의 자체 차량 ROS 통신 프로토콜 IONIQ INFO를 이용하여 위의 정보들을 직접 뽑아내기로 했다.
 
+
+## How?
 bagpy를 이용하면, Window 환경에서도 rosbag 파일을 쉽게 분석할 수 있다.
 자세한 사용법은 [공식 docs](https://jmscslgroup.github.io/bagpy/)를 참고하자. 
 
-## How?
+코드를 짜기 전에, 어떤 정보를 얻어야 할지 미리 생각해보자.
+
+
+
 차량의 양측면에 부착한 카메라를 통해 얻은 이미지를 이용하여, 차량 양측면의 Occupancy 정보를 얻어야 한다.
 이를 위해, 아래와 같은 구조의 네트워크를 사용하였다.
 <p align="center"><img src="https://user-images.githubusercontent.com/59161083/99424497-15ca6500-2945-11eb-81f5-c5f54d2d712f.PNG" width="200%" height="200%"></p>   
