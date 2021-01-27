@@ -1,7 +1,7 @@
 ---
 date: 2020-11-16
 layout: post
-title: Selfmade DTG
+title: Selfmade DTG(WIP)
 subtitle: rosbag을 이용하여 차량의 주행정보를 계산하기!
 description: 자율주행 임시운행 허가를 위한 DTG 만들기
 image: /assets/img/SideOccupancy_resize.gif
