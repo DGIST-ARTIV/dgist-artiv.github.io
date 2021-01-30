@@ -16,13 +16,6 @@ author: gu
 Author : 이  구 <br/>
 Date: 2021.01.27
 
-## Environment Setting
-Bagpy must be installed.
-
-```(python)
-pip3 install bagpy
-```
-
 ## Why?
 우리는 현재, 지난 1년간 개발한 IONIQ을 이용하여 자율주행차량 임시운행허가를 받기위해 준비중이다.
 이를 위한 필수조건 중 하나로, 주행기록계(DTG)를 설치하여야 한다. 그 근거는 아래와 같다.
@@ -39,6 +32,14 @@ pip3 install bagpy
 그래서, 우리의 자체 차량 ROS 통신 프로토콜 IONIQ INFO를 이용하여 위의 정보들을 직접 뽑아내기로 했다.
 
 ## How?
+
+### Environment Setting
+Bagpy must be installed.
+
+```(python)
+pip3 install bagpy
+```
+
 bagpy를 이용하면, Window 환경에서도 rosbag 파일을 쉽게 분석할 수 있다.
 자세한 사용법은 [공식 docs](https://jmscslgroup.github.io/bagpy/)를 참고하자. 
 
