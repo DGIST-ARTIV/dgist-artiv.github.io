@@ -78,6 +78,71 @@ magenta 구간은 Auto(자율주행모드) 모드, cyon 구간은 Manual(운전�
         return str(y)+"-"+str(m)+"-"+str(d)+" "+str(t_h)+":"+str(t_m)+":"+str(t_s)+":"+str(t_ms)
 ```
 
+네번째로, Auto Standby Switch의 값이 바뀌는 시점을 기준으로 각 section을 구분하였고, 각 section별 주행기록 정보와 전체 주행기록 정보를 분석하였다. 
+얻은 정보는 Auto/Manual 모드. 주행 시간, 평균 속도, 주행 거리이다. 
+그 결과는 아래와 같다.
+
+Ioniq Info Analysis
+========================= summary =========================
+Bagfile name: 2021-01-22-16-52-47_reason
+Start time: 2021-1-22 16:52:48:0899(KST)
+End time: 2021-1-22 16:57:59:2246(KST)
+total average_speed: 69.9(Km/h)
+total auto driving time: 250.39(s)
+total manual driving time: 60.71(s)
+total auto driving distance: 5409.73(m)
+total manual driving distance: 635.58(m)
+===========================================================
+
+-------------- Section 1 --------------
+Auto/Manual: Manual
+Duration: 0.24 ~ 21.78
+Average Velocity: 79.84
+Driving Distance: 476.83(m)
+----------------------------------------
+
+-------------- Section 2 --------------
+Auto/Manual: Auto
+Duration: 21.78 ~ 216.84
+Average Velocity: 79.63
+Driving Distance: 4313.73(m)
+----------------------------------------
+
+-------------- Section 3 --------------
+Auto/Manual: Manual
+Duration: 216.84 ~ 217.04
+Average Velocity: 74.69
+Driving Distance: 4.15(m)
+----------------------------------------
+
+-------------- Section 4 --------------
+Auto/Manual: Auto
+Duration: 217.04 ~ 249.9
+Average Velocity: 69.84
+Driving Distance: 639.39(m)
+----------------------------------------
+
+-------------- Section 5 --------------
+Auto/Manual: Manual
+Duration: 249.9 ~ 250.66
+Average Velocity: 34.83
+Driving Distance: 7.36(m)
+----------------------------------------
+
+-------------- Section 6 --------------
+Auto/Manual: Auto
+Duration: 250.66 ~ 273.42
+Average Velocity: 71.75
+Driving Distance: 456.61(m)
+----------------------------------------
+
+-------------- Section 7 --------------
+Auto/Manual: Manual
+Duration: 273.42 ~ 311.69
+Average Velocity: 12.84
+Driving Distance: 147.24(m)
+----------------------------------------
+
 ## ROS Application
 차량의 왼쪽, 오른쪽 Occupancy를 확인한 후, 그 결과를 ROS의 Int16 형태로 publish한다.
 각 토픽의 이름은 아래와 같다.
