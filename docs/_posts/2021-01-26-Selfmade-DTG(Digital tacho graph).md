@@ -48,14 +48,22 @@ bagpy를 이용하면, Window 환경에서도 rosbag 파일을 쉽게 분석할 
 bagpy의 기능 중 하나인 bagreader라는 class를 이용하면, 아래와 같이 손쉽게 각 topic에 해당되는 csv 파일을 얻을 수 있다.
 ```
 b = bagreader('[bag file name]')
-b.message_by_topic('/topic name')
+b.message_by_topic('/topic name')   
 ```
+
+이제, 다양한 정보들을 bagpy를 통해 손쉽게 얻어낼 수 있다는 것을 알았으니, 어떤 방식으로 구현해야할 지 생각해보자.
+
+첫번째로, 평균 속도, 핸들 조향각, Auto Standby Switch, APS Feedback, BPS Feedback의 정보는 시간에 따른 값의 변화를 matplot을 이용하여 표현하기로 하였다.
+이를 위해, csv파일에 함께 저장되어 있는 rostime을 시작점을 기준으로 하는 상대시간으로 바꿔주었다. 
+
+KST로 
+
 ## ROS Application
 차량의 왼쪽, 오른쪽 Occupancy를 확인한 후, 그 결과를 ROS의 Int16 형태로 publish한다.
 각 토픽의 이름은 아래와 같다.
 ```
-/SideOccupancy/Left
-/SideOccupancy/Right
+/SideOccupancy/Left   
+/SideOccupancy/Right   
 ```
 각 토픽의 메세지는 BLOCK인 경우 0, OPEN인 경우 1의 값을 갖는다.
 
