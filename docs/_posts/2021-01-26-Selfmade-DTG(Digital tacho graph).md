@@ -56,7 +56,9 @@ b.message_by_topic('/topic name')
 첫번째로, 평균 속도, 핸들 조향각, Auto Standby Switch, APS Feedback, BPS Feedback의 정보는 시간에 따른 값의 변화를 matplot을 이용하여 표현하기로 하였다.
 이를 위해, csv파일에 함께 저장되어 있는 rostime을 시작점을 기준으로 하는 상대시간으로 바꿔주었다. 
 
-KST로 
+두번째로, 그래프에 시각적인 정보를 추가하여 Auto(자율주행모드)/Manual(운전자우선모드) 정보를 쉽게 알 수 있도록 하였다.
+이를 위해, matplotlib의 axvspan 기능을 이용하였다.
+magenta 구간은 Auto(자율주행모드) 모드, cyon 구간은 Manual(운전자우선모드) 모드 이다.
 
 ## ROS Application
 차량의 왼쪽, 오른쪽 Occupancy를 확인한 후, 그 결과를 ROS의 Int16 형태로 publish한다.
