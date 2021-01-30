@@ -37,7 +37,6 @@ pip3 install bagpy
 이를 위해, IONIQ 차량에 운행기록계를 설치하기 위해 다양한 업체들에 연락한 끝에 설치할 수 있었지만, 위의 법령에 해당하는 모든 정보를 기록해주지는 않았다.
 또, 이와 별개로, 자율주행임시운행 허가를 위한 제출서류 중 하나인, 사전시험주행보고서의 항목들에 해당하는 정보(Auto/Manual 모드 별 주행거리, 평균 속도 등)들 역시 얻을 수 있어야 했다. 
 그래서, 우리의 자체 차량 ROS 통신 프로토콜 IONIQ INFO를 이용하여 위의 정보들을 직접 뽑아내기로 했다.
-IONIQ의 통신 프로토콜 메뉴얼은 [여기](https://docs.google.com/document/d/1Mvyvs1Tt20U99uA4o_h4c2-KB7s64NOQz6vd_-SGwh4/edit)서 확인할 수 있다.
 
 ## How?
 bagpy를 이용하면, Window 환경에서도 rosbag 파일을 쉽게 분석할 수 있다.
