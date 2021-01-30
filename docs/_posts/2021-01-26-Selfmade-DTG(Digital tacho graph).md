@@ -19,7 +19,7 @@ Date: 2021.01.27
 ## Environment Setting
 Bagpy must be installed.
 
-```
+```(python)
 pip3 install bagpy
 ```
 
@@ -46,7 +46,7 @@ bagpy를 이용하면, Window 환경에서도 rosbag 파일을 쉽게 분석할 
 법령에서 정한 네가지 항목은 각각 우리의 /Ioniq_info의 Auto Standby Switch, APS Feedback, BPS Feedback, Steering Angle에 대응한다.
 
 bagpy의 기능 중 하나인 bagreader라는 class를 이용하면, 아래와 같이 손쉽게 각 topic에 해당되는 csv 파일을 얻을 수 있다.
-```
+```(python)
 b = bagreader('[bag file name]')
 b.message_by_topic('/topic name')   
 ```
@@ -59,6 +59,24 @@ b.message_by_topic('/topic name')
 두번째로, 그래프에 시각적인 정보를 추가하여 Auto(자율주행모드)/Manual(운전자우선모드) 정보를 쉽게 알 수 있도록 하였다.
 이를 위해, matplotlib의 axvspan 기능을 이용하였다.
 magenta 구간은 Auto(자율주행모드) 모드, cyon 구간은 Manual(운전자우선모드) 모드 이다.
+
+세번째로, 실제 주행시간을 알 수 있도록, rostime을 KST(Korea Standard Time)로 바꾼 후, 함께 표기해줄 수 있도록 하였다.
+그 과정은 아래와같다.
+
+```(python)
+    def rostime2datetime(self, rostime):
+        time2 = time.localtime(rostime)
+        real_rostime = round(rostime) 
+        y = time2.tm_year 
+        m = time2.tm_mon
+        d = time2.tm_mday
+        t_h = time2.tm_hour
+        t_m = time2.tm_min
+        t_s = time2.tm_sec
+        t_ms = str(round(rostime - real_rostime,4)).split(".")
+        t_ms = t_ms[-1] 
+        return str(y)+"-"+str(m)+"-"+str(d)+" "+str(t_h)+":"+str(t_m)+":"+str(t_s)+":"+str(t_ms)
+```
 
 ## ROS Application
 차량의 왼쪽, 오른쪽 Occupancy를 확인한 후, 그 결과를 ROS의 Int16 형태로 publish한다.
