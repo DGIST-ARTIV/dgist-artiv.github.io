@@ -60,7 +60,10 @@ b.message_by_topic('/topic name')
 이를 위해, matplotlib의 axvspan 기능을 이용하였다.
 magenta 구간은 Auto(자율주행모드) 모드, cyon 구간은 Manual(운전자우선모드) 모드 이다.
 
-세번째로, 실제 주행시간을 알 수 있도록, rostime을 KST(Korea Standard Time)로 바꾼 후, 함께 표기해줄 수 있도록 하였다.
+세번째로, 각 값들의 시스템상 min/max 값을 빨간색 dashed line으로 표시해 주었다.
+
+
+네번째로, 실제 주행시간을 알 수 있도록, rostime을 KST(Korea Standard Time)로 바꾼 후, 함께 표기해줄 수 있도록 하였다.
 그 과정은 아래와같다.
 
 ```(python)
@@ -78,23 +81,26 @@ magenta 구간은 Auto(자율주행모드) 모드, cyon 구간은 Manual(운전�
         return str(y)+"-"+str(m)+"-"+str(d)+" "+str(t_h)+":"+str(t_m)+":"+str(t_s)+":"+str(t_ms)
 ```
 
-네번째로, Auto Standby Switch의 값이 바뀌는 시점을 기준으로 각 section을 구분하였고, 각 section별 주행기록 정보와 전체 주행기록 정보를 분석하였다. 
+다섯번째로, Auto Standby Switch의 값이 바뀌는 시점을 기준으로 각 section을 구분하였고, 각 section별 주행기록 정보와 전체 주행기록 정보를 분석하였다. 
 얻을 수 있는 정보는 Auto/Manual 모드. 주행 시간, 평균 속도, 주행 거리 등이다.
 txt 파일에 bag file 이름, 주행시작 시간(KST), 주행종료 시간(KST), total average speed, total auto driving time, total manaul driving time, total auto driving distance, total manual driving distance 등을 기록 한 후, 각 섹션별 Auto/Manual 모드, 주행 시간, 평균속도, 주행거리를 기록하였다.
 
-다섯번째로, GPS 정보를 이용하여 차량의 위치를 기록하였고, 이를 이용하여 차량의 대략적인 이동경로를 알 수 있도록 하였다.
+여섯번째로, GPS 정보를 이용하여 차량의 위치를 기록하였고, 이를 이용하여 차량의 대략적인 이동경로를 알 수 있도록 하였다.
 
 마지막으로, 한번의 실행으로 폴더안의 모든 bag file에 대한 분석이 이루어질 수 있도록 자동화 하였다.
 
 ## Result
-위의 과정을 통해 얻은 결과는 아래와 같다.
+위의 과정을 통해 얻은 결과는 아래와 같다.   
 
-1. 각 값들에 대한 plot
+1. 각 값들에 대한 plot   
+
 ![2021-01-22-16-52-47_reason](https://user-images.githubusercontent.com/59161083/106358230-2be5a000-634e-11eb-879a-8dd32814673e.png)
 
-2. 세부 주행 정보
+2. 세부 주행 정보   
+
 ![Screenshot from 2021-01-30 22-55-41](https://user-images.githubusercontent.com/59161083/106358246-56375d80-634e-11eb-9a1f-8a296d403a77.png)
 
-3. GPS를 통해 얻은 주행경로
+3. GPS를 통해 얻은 주행경로   
+
 ![2021-01-22-16-52-47_reason_gps](https://user-images.githubusercontent.com/59161083/106358269-81ba4800-634e-11eb-999f-872914191638.png)
 
