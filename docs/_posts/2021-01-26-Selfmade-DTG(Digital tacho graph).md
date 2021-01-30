@@ -79,76 +79,22 @@ magenta 구간은 Auto(자율주행모드) 모드, cyon 구간은 Manual(운전�
 ```
 
 네번째로, Auto Standby Switch의 값이 바뀌는 시점을 기준으로 각 section을 구분하였고, 각 section별 주행기록 정보와 전체 주행기록 정보를 분석하였다. 
-얻은 정보는 Auto/Manual 모드. 주행 시간, 평균 속도, 주행 거리이다. 
-그 결과는 아래와 같다.
+얻을 수 있는 정보는 Auto/Manual 모드. 주행 시간, 평균 속도, 주행 거리 등이다.
+txt 파일에 bag file 이름, 주행시작 시간(KST), 주행종료 시간(KST), total average speed, total auto driving time, total manaul driving time, total auto driving distance, total manual driving distance 등을 기록 한 후, 각 섹션별 Auto/Manual 모드, 주행 시간, 평균속도, 주행거리를 기록하였다.
 
-Ioniq Info Analysis
-========================= summary =========================
-Bagfile name: 2021-01-22-16-52-47_reason
-Start time: 2021-1-22 16:52:48:0899(KST)
-End time: 2021-1-22 16:57:59:2246(KST)
-total average_speed: 69.9(Km/h)
-total auto driving time: 250.39(s)
-total manual driving time: 60.71(s)
-total auto driving distance: 5409.73(m)
-total manual driving distance: 635.58(m)
-===========================================================
+다섯번째로, GPS 정보를 이용하여 차량의 위치를 기록하였고, 이를 이용하여 차량의 대략적인 이동경로를 알 수 있도록 하였다.
 
--------------- Section 1 --------------
-Auto/Manual: Manual
-Duration: 0.24 ~ 21.78
-Average Velocity: 79.84
-Driving Distance: 476.83(m)
-----------------------------------------
+마지막으로, 한번의 실행으로 폴더안의 모든 bag file에 대한 분석이 이루어질 수 있도록 자동화 하였다.
 
--------------- Section 2 --------------
-Auto/Manual: Auto
-Duration: 21.78 ~ 216.84
-Average Velocity: 79.63
-Driving Distance: 4313.73(m)
-----------------------------------------
+## Result
+위의 과정을 통해 얻은 결과는 아래와 같다.
 
--------------- Section 3 --------------
-Auto/Manual: Manual
-Duration: 216.84 ~ 217.04
-Average Velocity: 74.69
-Driving Distance: 4.15(m)
-----------------------------------------
+1. 각 값들에 대한 plot
+![2021-01-22-16-52-47_reason](https://user-images.githubusercontent.com/59161083/106358230-2be5a000-634e-11eb-879a-8dd32814673e.png)
 
--------------- Section 4 --------------
-Auto/Manual: Auto
-Duration: 217.04 ~ 249.9
-Average Velocity: 69.84
-Driving Distance: 639.39(m)
-----------------------------------------
+2. 세부 주행 정보
+![Screenshot from 2021-01-30 22-55-41](https://user-images.githubusercontent.com/59161083/106358246-56375d80-634e-11eb-9a1f-8a296d403a77.png)
 
--------------- Section 5 --------------
-Auto/Manual: Manual
-Duration: 249.9 ~ 250.66
-Average Velocity: 34.83
-Driving Distance: 7.36(m)
-----------------------------------------
-
--------------- Section 6 --------------
-Auto/Manual: Auto
-Duration: 250.66 ~ 273.42
-Average Velocity: 71.75
-Driving Distance: 456.61(m)
-----------------------------------------
-
--------------- Section 7 --------------
-Auto/Manual: Manual
-Duration: 273.42 ~ 311.69
-Average Velocity: 12.84
-Driving Distance: 147.24(m)
-----------------------------------------
-
-## ROS Application
-차량의 왼쪽, 오른쪽 Occupancy를 확인한 후, 그 결과를 ROS의 Int16 형태로 publish한다.
-각 토픽의 이름은 아래와 같다.
-```
-/SideOccupancy/Left   
-/SideOccupancy/Right   
-```
-각 토픽의 메세지는 BLOCK인 경우 0, OPEN인 경우 1의 값을 갖는다.
+3. GPS를 통해 얻은 주행경로
+![2021-01-22-16-52-47_reason_gps](https://user-images.githubusercontent.com/59161083/106358269-81ba4800-634e-11eb-999f-872914191638.png)
 
