@@ -4,7 +4,7 @@ layout: post
 title: Let's Use Pyroutelib3!
 subtitle: pyroutelib3를 사용해보자
 description: pyroutelib3를 사용해보자
-image: 
+image: https://user-images.githubusercontent.com/50894726/106676308-f5cc4880-65f9-11eb-9a5b-69308c54958e.png
 category: hdmap
 tags:
   - HD_Map
@@ -52,5 +52,54 @@ if status == 'success':
 출발점과 도착점은 임의의 두 지점을 찍어서 위도와 경도를 입력하였다.
 
 이렇게 단순히 실행을 하면 ```KeyError("findNode in an empty space")```가 발생한다.
+
+Transport mode가 car인 경우, 아래와 같이 weights가 설정되어있다.
+
+```
+"weights": {
+    "motorway": 10, "trunk": 10, "primary": 2, "secondary": 1.5, "tertiary": 1,
+    "unclassified": 1, "residential": 0.7, "living_street": 0.5, "track": 0.5,
+    "service": 0.5,
+}
+```
+
+way의 tag에 각 키워드가 있으면 이를 파싱하여 weight를 설정하는데, 국토지리정보원에서 제공하는 정밀도로지도는 Openstreet Map 규격에 맞추어져 있지 않기 때문에 위와 같은 문제가 발생하는 것이다.
+
+테크노폴리스 일대는 다 똑같은 일반도로이기 때문에, 굳이 weight을 다르게 설정할 필요가 없다.
+
+Weight은 osmparsing.py 파일의 ```getWayWeight```에서 부여하는데, 이때의 return 값을 10으로 고정하였다.
+
+![image1](https://user-images.githubusercontent.com/50894726/106675617-c406b200-65f8-11eb-8b31-df69fb61d075.png)
+
+그러고 나서 재실행하면 작동은 하는데 딱히 결과값을 보여주지는 않는다.
+
+단순 확인을 위해 시각화하는 부분까지 짜기는 귀찮으므로,, JOSM에 바로 import하여 눈으로 확인할 수 있도록 복사하기 쉬운 형태로 planning된 경로의 위도, 경도를 출력하도록 설정하였다.
+
+최종 실행 코드는 아래와 같아졌다.
+
+```
+from pyroutelib3 import Router # Import the router
+router = Router("car", "A2_LINK.osm") # Initialise it
+
+start = router.findNode(35.7011876, 128.4585397)
+end = router.findNode(35.6913484, 128.4639248)
+
+status, route = router.doRoute(start, end) # Find the route - a list of OSM nodes
+
+if status == 'success':
+    routeLatLons = list(map(router.nodeLatLon, route)) # Get actual route coordinates
+    for latlon in routeLatLons:
+        print(str(latlon)[1:-1])
+```
+
+이제 실행해보면, 아래와 같이 주르륵 뜬다.
+
+![image2](https://user-images.githubusercontent.com/50894726/106676276-e3520f00-65f9-11eb-9982-272caac9f5f1.png)
+
+이걸 복사한 뒤, JOSM의 Lat Lon Tool을 이용하여 시각화하였다.
+
+![image3](https://user-images.githubusercontent.com/50894726/106676308-f5cc4880-65f9-11eb-9a5b-69308c54958e.png)
+
+이렇게 보면 얼추 잘된 것 같아보이지만...
 
 (작성중)
