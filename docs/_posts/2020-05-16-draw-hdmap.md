@@ -4,7 +4,7 @@ layout: post
 title: Let's Draw a Map!
 subtitle: HD Map의 빠진부분을 채워보자
 description: HD Map의 빠진부분을 채워보자
-image: 
+image: https://user-images.githubusercontent.com/50894726/107123561-7e403700-68e1-11eb-83a8-9c03bc127dca.png
 category: hdmap
 tags:
   - HD_Map
@@ -28,6 +28,8 @@ DGIST가 위치해있는 테크노폴리스일대는 다행히도(?) 국토지�
 
 [![Video1](http://img.youtube.com/vi/_nAcYMgrH9Q/0.jpg)](https://youtu.be/_nAcYMgrH9Q)
 
+(클릭 시 Youtube로 이동)
+
 이 방식으로 몇 시간 해보다가 너무 힘들어서 방법을 바꿨다.
 
 ![image3](https://user-images.githubusercontent.com/50894726/107116920-ec710380-68b9-11eb-84e2-b5b2af2fe495.jpg)
@@ -35,6 +37,8 @@ DGIST가 위치해있는 테크노폴리스일대는 다행히도(?) 국토지�
 내 전동킥보드를 소환하여 보조배터리로 전원을 공급하고, 노트북은 들고다녔다.
 
 [![Video2](http://img.youtube.com/vi/fbrslCNBGLo/0.jpg)](https://youtu.be/fbrslCNBGLo)
+
+(클릭 시 Youtube로 이동)
 
 바퀴로 밀고다니면 되어서 훨씬 수월하였다.
 
