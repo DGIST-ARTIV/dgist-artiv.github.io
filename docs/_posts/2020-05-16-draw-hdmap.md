@@ -18,7 +18,7 @@ DGIST가 위치해있는 테크노폴리스일대는 다행히도(?) 국토지�
 
 그런데, DGIST 내부의 일부도로는 구축되어있지 않아, 구축할 필요가 있다고 생각하고 바로 테스트 작업에 착수하였다.
 
-![image2]
+![image2](https://user-images.githubusercontent.com/50894726/107123511-4f29c580-68e1-11eb-83c5-afa89655bd8c.png)
 
 ### 차선 데이터 수집(테스트)
 
@@ -55,7 +55,7 @@ HD map상의 차선 데이터는 거의 활용하지 않고, 주행유도선을 
 
 그렇게 만들어진 주행유도선 데이터는 아래와 같다.
 
-![image5](
+![image5](https://user-images.githubusercontent.com/50894726/107123561-7e403700-68e1-11eb-83a8-9c03bc127dca.png)
 
 ros nmea driver에서 제공하는 데이터를 이용하여, osm 파일을 제작하였다.
 
