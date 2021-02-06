@@ -28,15 +28,15 @@ author: junsang
 
 ### 수정된 내용
 
-1. numpy 도입
+**1. numpy 도입**
 - 기존에는 python의 list로 데이터를 다뤘는데, node id를 검색하는 등의 과정에서 시간이 꽤 많이 소요되었다. 이 문제를 해결하고자 numpy를 이용하여 데이터 구조를 수정하였다.
 
-2. 발생할 수 있는 오류 수정
+**2. 발생할 수 있는 오류 수정**
 - 개발한 프로그램은 node를 추가로 만들어주는 기능을 한다. 그렇기 때문에 새로운 node에 새로운 ID를 부여해주어야 하는데, 기존 node의 id와 겹칠 수 있다는 것을 고려하지 않고 만들어져있었다. 중복 ID가 발생하지 않도록하는 과정을 추가하였다.
 
-3. Input, Output 파일명 지정가능
+**3. Input, Output 파일명 지정가능**
 - `sys.argv`를 도입하여 input, output 파일명을 지정할 수 있게 하였다. `main.py <--input_file_name--> <--output_file_name-->`의 구조로 입력하면 된다.
-- 사용 예시
+**- 사용 예시**
 	- `main.py` -> 기본값으로 실행(Input 파일 : "A2_LINK.osm", Output 파일 : "A2_LINK_output.osm")
 	- `main.py map.osm` -> input 파일명 지정, output 파일 네이밍 자동(Input 파일 : "map.osm", Output 파일 : "map_output.osm")
 	- `main.py map.osm last_map.osm` -> input, output 파일명 지정(Input 파일 : "map.osm", Output 파일 : "last_map.osm")
