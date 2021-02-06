@@ -36,7 +36,7 @@ author: junsang
 
 **3. Input, Output 파일명 지정가능**
 - `sys.argv`를 도입하여 input, output 파일명을 지정할 수 있게 하였다. `main.py <--input_file_name--> <--output_file_name-->`의 구조로 입력하면 된다.
-**- 사용 예시**
+- **사용 예시**
 	- `main.py` -> 기본값으로 실행(Input 파일 : "A2_LINK.osm", Output 파일 : "A2_LINK_output.osm")
 	- `main.py map.osm` -> input 파일명 지정, output 파일 네이밍 자동(Input 파일 : "map.osm", Output 파일 : "map_output.osm")
 	- `main.py map.osm last_map.osm` -> input, output 파일명 지정(Input 파일 : "map.osm", Output 파일 : "last_map.osm")
