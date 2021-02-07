@@ -118,10 +118,10 @@ author: junsang
 
 ### Usage
 
-- ```ros2 launch``` 명령어로 쉽게 실행 가능. ```ros2 launch artiv_shuttle_navi artiv_shuttle_navi.launch.py```
+- ```ros2 launch``` 명령어로 쉽게 실행 가능.
+	- ```ros2 launch artiv_shuttle_navi artiv_shuttle_navi.launch.py```
 - 작동 영상 (클릭시 Youtube로 이동)
-
-[![Video1](http://img.youtube.com/vi/nOwks9bHo1Y/0.jpg)](https://youtu.be/nOwks9bHo1Y)
+	- [![Video1](http://img.youtube.com/vi/nOwks9bHo1Y/0.jpg)](https://youtu.be/nOwks9bHo1Y)
 
 
 ### Comments
