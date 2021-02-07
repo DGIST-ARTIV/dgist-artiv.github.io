@@ -68,7 +68,7 @@ author: junsang
 - polygon에 포함된 경우는 0을 저장합니다.
 
 **번외. 2 ~ 3 과정 예시**
-	- ![image2](https://user-images.githubusercontent.com/50894726/107153294-0db41b80-69b0-11eb-9d8b-edaa1107a120.png)
+- ![image2](https://user-images.githubusercontent.com/50894726/107153294-0db41b80-69b0-11eb-9d8b-edaa1107a120.png)
 - 위와 같은 상황이라고 가정해봅시다. (사전 설정 거리 20m)
 - 과속방지턱 polygon에 포함된 3번 node가 찾아지고, 인덱스 3이 저장됩니다.
 - 2번 node와 polygon 사이의 거리를 탐색합니다. 20m보다 가까우므로 넘어갑니다.
