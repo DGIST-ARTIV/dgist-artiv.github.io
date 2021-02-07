@@ -94,7 +94,7 @@ ARTIV Organization은 private이라 팀원이 아닌 사람은 접근할 수 없
 아래의 링크에서 다운로드 받을 수 있다.
 
 - git : [https://github.com/js-ryu/for_ARTIV_Framework/tree/main/artiv_nmea_driver](https://github.com/js-ryu/for_ARTIV_Framework/tree/main/artiv_nmea_driver)
-- Release : [https://github.com/js-ryu/for_ARTIV_Framework/releases/tag/1.7.1](https://github.com/js-ryu/for_ARTIV_Framework/releases)
+- Release : [https://github.com/js-ryu/for_ARTIV_Framework/releases](https://github.com/js-ryu/for_ARTIV_Framework/releases)
 
 ---------------------------------------------------------------------------------------------
 
