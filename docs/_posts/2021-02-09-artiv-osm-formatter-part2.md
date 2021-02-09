@@ -115,7 +115,7 @@ Node Interval : 1 meter(s)
 # of Lane Change Nodes : 20
 ```
 
-**- 사용 예시**
+- **사용 예시**
 	- ```python3 main.py``` -> 기본값으로 실행
 	- ```python3 main.py -f input.osm lane.osm``` -> LINK File : input.osm / LANE File : lane.osm / Output File : input_output.osm, 나머지는 기본값
 	- ```python3 main.py --option 0.5``` -> Node Interval : 0.5미터, 나머지는 기본값
