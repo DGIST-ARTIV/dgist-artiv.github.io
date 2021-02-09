@@ -5,6 +5,7 @@ title: ARTIV_SHUTTLE_NAVI for HD Map Information Publishing
 subtitle: artiv_shuttle_navi에 대해 알아보자.
 description: artiv_shuttle_navi에 대해 알아보자.
 image: https://user-images.githubusercontent.com/50894726/107152599-130f6700-69ac-11eb-8ac9-538479862f32.png
+category: hdmap
 tags:
   - HD_Map
   - ROS_package
