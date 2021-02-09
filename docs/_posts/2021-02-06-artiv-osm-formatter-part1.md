@@ -35,6 +35,8 @@ author: junsang
 - 개발한 프로그램은 node를 추가로 만들어주는 기능을 한다. 그렇기 때문에 새로운 node에 새로운 ID를 부여해주어야 하는데, 기존 node의 id와 겹칠 수 있다는 것을 고려하지 않고 만들어져있었다. 중복 ID가 발생하지 않도록하는 과정을 추가하였다.
 
 **3. Input, Output 파일명 지정가능**
+- **방법이 수정되었습니다. [ARTIV_OSM_FORMATTER [PART 2]](https://dgist-artiv.github.io/hdmap/2021/02/09/artiv-osm-formatter-part2.html)를 참조해주세요!
+
 - `sys.argv`를 도입하여 input, output 파일명을 지정할 수 있게 하였다. `main.py <--input_file_name--> <--output_file_name-->`의 구조로 입력하면 된다.
 - **사용 예시**
 	- `main.py` -> 기본값으로 실행(Input 파일 : "A2_LINK.osm", Output 파일 : "A2_LINK_output.osm")
