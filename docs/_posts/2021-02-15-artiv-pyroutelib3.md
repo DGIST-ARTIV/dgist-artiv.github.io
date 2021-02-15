@@ -4,9 +4,7 @@ layout: post
 title: Let's Do Global Path Planning!
 subtitle: pyroutelib3를 수정하여 global path planning을 해보자
 description: pyroutelib3를 수정하여 global path planning을 해보자
-image: image1](https://user-images.githubusercontent.com/50894726/107947124-4ddd5480-6fd5-11eb-9477-cb42ce4990fd.
-
-![Screenshot from 2021-02-15 21-27-10](https://user-images.githubusercontent.com/50894726/107950051-897a1d80-6fd9-11eb-8b4b-fcbee028d6ea.png)
+image: https://user-images.githubusercontent.com/50894726/107947124-4ddd5480-6fd5-11eb-9477-cb42ce4990fd.png
 category: hdmap
 tags:
   - HD_Map
