@@ -4,6 +4,6 @@ photo: https://avatars0.githubusercontent.com/u/50894726?s=400&u=ef181f71fab6046
 name: junsang
 display_name: Junsang Ryu
 position: Researcher | Localization
-bio: DGIST Undergraduate Junior<br/>js52065@dgist.ac.kr
+bio: DGIST Undergraduate Junior<br/>jjss52065@gmail.com
 github_username: js-ryu
 ---
