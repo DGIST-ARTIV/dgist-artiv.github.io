@@ -33,4 +33,4 @@ A*, Dijkstra등 다양한 path planning Algorithm이 존재하지만, local path
 1. 차량의 상태를 예측하여 경로를 생성하기 때문에 차량이 따라가기 적합한 경로를 생성한다.
 2. Sampling State가 적은경우 빠른 연산이 가능하다.
 
-### Model predictive trajectory generator에 대한 설
+### Model predictive trajectory generator에 대한 설명은 이후 포스트에서 자세히 기술하겠다.
