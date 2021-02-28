@@ -21,9 +21,9 @@ local path planning은 Global Path가 주어지거나, 국소적 목표가 설�
 
 ## Local Path Planning을 하는 이유
 AV(Autonomous Vehicle)이 주행시 도로에서 다양한 상황을 맞이할 수 있다. 예들들어 공사중으로 인해 라바콘이 도로 한복판을 가로막고 있다던가 불법 주차로 인해 도로의 절반을 차량이 가로막고 있는경우가 대표적이다.
-![공사중 도로](https://github.com/DGIST-ARTIV/dgist-artiv.github.io/blob/master/docs/media/load1.jpeg)
+![공사중 도로](https://user-images.githubusercontent.com/50408036/109413498-13ba7c80-79f1-11eb-919e-9a010b4e5c9a.jpeg)
 
-![불법주차 도로](https://github.com/DGIST-ARTIV/dgist-artiv.github.io/blob/master/docs/media/load2.jpeg)
+![불법주차 도로](https://user-images.githubusercontent.com/50408036/109413523-3f3d6700-79f1-11eb-9bae-33cc2c582ce1.jpeg)
 
 
 이 경우 차량이 정지후 그 상황이 종료된 후 다시 Global Path를 따라가도 되지만, 위와 같은 경우 그 상황이 언제 해소될지 모른다.따라서 이런상황들을 유연하게 대처하기 위해 Local Pathplanning이 필요하다.
