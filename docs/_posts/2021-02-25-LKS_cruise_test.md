@@ -20,7 +20,7 @@ author: eunbin
 우리는 시스템 최고속도를 100km/h로 설정을 했고 고속에 대한 테스트는 더 이상 학교에서 테스트할 수 없었다.
 이를 위하여 학교에서 벗어나 학교 근처 KIAPI에서 두달간 사전시험주행을 진행했다.
 
-![](../assets/img/kiapi_high-speed_circuit.PNG)
+![](/assets/img/kiapi_high-speed_circuit.PNG)
 
 <!--
 <p align="center"><img src="../assets/img/kiapi_high-speed_circuit.PNG" width="50%" height="50%"></img></p>
@@ -29,7 +29,7 @@ author: eunbin
 곡률은 학교의 셔틀 경로가 더 컸지만 이 주회로의 곡선도로는 학교에 비하면 정말 길다. (처음 테스트할 때는 언제 곡선을 벗어날 수 있는지 굉장히 힘들었던 기억이 있다.)
 실제 운전석에서 bank부를 들어갈 때 이런 느낌으로 곡선의 끝이 보이지 않는다.
 
-![](../assets/img/kiapi_bank_entrance.png)
+![](/assets/img/kiapi_bank_entrance.png)
 <!--
 <p align="center"><img src="../assets/img/kiapi_bank_entrance.png" width="60%" height="60%"></img></p>
 -->
