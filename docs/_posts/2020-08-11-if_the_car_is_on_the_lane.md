@@ -39,8 +39,8 @@ shifting은 차와 차선의 위치관계가 변하지 않도록 조심해야한
 >  - 이를 역산하면 왼쪽 공간 크기 계산 가능
 ``` python3
 # 이미지의 중앙 지점이 400이라고 하면 코드는 다음과 같다.
-left_space = int(400-(sum(left_lane_x, 0.0)/len(x_left_lane_x))
-left_space += random.randint(0,10))
+left_space = int(400-sum(left_lane_x, 0.0)/len(x_left_lane_x))
+left_space += random.randint(0,10)
 ```
 
 |![shifting_method](https://user-images.githubusercontent.com/53460541/112950973-d6731700-9175-11eb-977f-ed66be91dd41.png)|
@@ -56,8 +56,8 @@ left_space += random.randint(0,10))
 
 ``` python3
 # 이미지의 width가 800이라고 하면
-right_space = int(800-(sum(right_lane_x, 0.0)/len(right_lane_x))
-right_space += random.randint(0,10))
+right_space = int(800-sum(right_lane_x, 0.0)/len(right_lane_x))
+right_space += random.randint(0,10)
 ```
 
 3. 모든 이미지 픽셀을 정한 shifting 크기만큼 이동하고 annotation 했던 좌표들 이동, 그 좌표에 맞는 segmentation 이미지 생성
