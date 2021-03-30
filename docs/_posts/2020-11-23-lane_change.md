@@ -50,6 +50,9 @@ vision 기반 tracking algorithm을 실행시키고 직접 차선 변경을 하�
 |:---:|
 |차선변경시 생성하는 주행유도선의 경향과 종료 조건에 대하여 이해를 돕는 그림|
 
-
 ## 최종 결과
-<iframe width="560" height="315" src="https://youtu.be/embed/O5Hdkg_2Lz8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dv-IxfmBnDc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## To Do List
+- 너무 급격하게 핸들을 조절해 승차감이 좋지 않다. --> 종료조건은 그대로 사용하되 가상의 주행유도선을 제공
+- 저장한 주행유도선이 안정적으로 주행한 것이 맞는지 주행유도선에 대한 신뢰성을 검사해야 한다.
