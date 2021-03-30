@@ -27,8 +27,8 @@ Culane
     ├─ 0000.txt ##text file include the ground truth of image
     ├─ ... ##a lot of jpg and txt pairs
   ├─ list
-    ├─ train.txt ## txt files of the image paths
-    ├─ train_gt.txt ## txt files of the segmentation image paths and the label paths
+    ├─ train.txt ## all image paths
+    ├─ train_gt.txt ## all segmentation image paths and the label paths
   ├─ laneseg
     ├─ video path
        ├─ 0000.png ##segmentation images
