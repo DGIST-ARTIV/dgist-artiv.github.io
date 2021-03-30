@@ -21,17 +21,17 @@ CULane 데이터셋뿐만 아니라 이러한 형식을 가진 한국 도심 데
 ENet-SAD 논문 저자가 사용한 CULane 데이터셋 파일구조와 segmentation 방식([seg_label_generate](https://github.com/XingangPan/seg_label_generate) 참고)을 맞춰 제작했다.
 파일을 video 이름으로 나눔으로써 자동으로 사용한 video가 구분되었다. CULane 데이터셋 파일 구조는 다음과 같다.
 ```
-    Culane
-      ├─ video path
-        ├─ 0000.jpg ##image
-        ├─ 0000.txt ##text file include the ground truth of image
-        ├─ ... ##a lot of jpg and txt pairs
-      ├─ list
-        ├─ train.txt ## txt files of the image paths
-        ├─ train_gt.txt ## txt files of the segmentation image paths and the label paths
-      ├─ laneseg
-        ├─ video path
-          ├─ 0000.png ##segmentation images
+Culane
+  ├─ video path
+    ├─ 0000.jpg ##image
+    ├─ 0000.txt ##text file include the ground truth of image
+    ├─ ... ##a lot of jpg and txt pairs
+  ├─ list
+    ├─ train.txt ## txt files of the image paths
+    ├─ train_gt.txt ## txt files of the segmentation image paths and the label paths
+  ├─ laneseg
+    ├─ video path
+       ├─ 0000.png ##segmentation images
 ```
 
 ### annotation tool의 핵심 기능
