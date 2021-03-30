@@ -1,7 +1,7 @@
 ---
 date: 2020-08-11
 layout: post
-title: What happens to lane detection when a car changes lanes? (Augmentation)
+title: What happens to lane detection when the car changes lane? (Augmentation)
 subtitle: Augmentation for lane detection
 description: Augmentation for lane detection
 image: /assets/img/car_on_center_line.png
