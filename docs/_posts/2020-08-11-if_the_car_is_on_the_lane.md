@@ -61,9 +61,9 @@ right_space = int(800-sum(right_lane_x, 0.0)/len(right_lane_x))
 right_space += random.randint(0,10)
 ```
 
-3. 모든 이미지 픽셀을 정한 shifting 크기만큼 이동하고 annotation 했던 좌표들 이동, 그 좌표에 맞는 segmentation 이미지 생성
-5. 원래 이미지 크기에 맞춰 빠져나간 이미지 잘라내기
-6. 빈 공간은 이미지 전체의 pixel 정보(RGB 값)의 평균으로 채워넣기
+3．모든 이미지 픽셀을 정한 shifting 크기만큼 이동하고 annotation 했던 좌표들 이동, 그 좌표에 맞는 segmentation 이미지 생성
+4．원래 이미지 크기에 맞춰 빠져나간 이미지 잘라내기
+5．빈 공간은 이미지 전체의 pixel 정보(RGB 값)의 평균으로 채워넣기
 
 최종적으로 생성된 이미지는 다음과 같다.
 
