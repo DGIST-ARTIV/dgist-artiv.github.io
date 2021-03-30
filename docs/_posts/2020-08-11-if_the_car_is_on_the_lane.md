@@ -15,7 +15,7 @@ author: eunbin
 ---
 
 ## 차가 중앙선 위에 위치한다면? (문제점)
-dataset을 더 만들어내기 위하여 annotation tool을 직접 개발하였다. [이전 게시글](https://dgist-artiv.github.io/vision/2020/06/24/Lane_annotation_tool.html)
+dataset을 더 만들어내기 위하여 annotation tool을 직접 개발했었다. [이전 게시글](https://dgist-artiv.github.io/vision/2020/06/24/Lane_annotation_tool.html)
 직접 차에 카메라를 달고 annotation할 영상을 찍었다. 
 차선을 변경할 때 변경하는 쪽의 차선의 ground truth를 어떻게 할지 결정하지 않아서 제외하고 annotation을 했는데
 아니나 다를까 차선이 차 바로 앞에 있다는 상황에 대한 학습이 안되어있으니 lane detection이 전혀 되지 않았다.
