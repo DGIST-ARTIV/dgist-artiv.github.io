@@ -50,3 +50,17 @@ Culane
 - 잘못 찍은 점 하나를 지우는 기능
 - 이미지에 찍은 모든 점들을 지우는 기능
 
+### annotation tool 다운로드
+곧 오픈 예정
+
+### 직접 만든 dataset 학습시켜보자
+직접 만든 dataset이 잘 학습되는지 test를 해보았다. 
+빠르게 annotation해서 datset 몇 장을 만들고 잘 학습되는 것을 보았다.
+성능향상을 위해 annotation을 많이 하는 것이 필요하다.
+우선 이틀에 걸쳐 낮 영상과 밤 영상에서 총 1000장 정도의 frame을 annotation했다.  
+culane dataset과 합쳐 ENet-SAD train을 시켰다.  
+다음은 culane dataset만을 이용해 test한 결과이다.  
+![only_culane-_online-video-cutter com_](https://user-images.githubusercontent.com/53460541/86783514-5ebb0480-c09b-11ea-987d-0871040c6a19.gif)  
+다음은 우리가 annotation한 dataset을 포함시킨 결과이다.
+![culane_and_ours-_online-video-cutter com_](https://user-images.githubusercontent.com/53460541/86783519-61b5f500-c09b-11ea-92e5-c876b145ea8c.gif)  
+아직까지 큰 차이는 없어보이지만 더 많은 dataset을 만들게 되면 더 좋은 성능을 가지게 될 것이다.
