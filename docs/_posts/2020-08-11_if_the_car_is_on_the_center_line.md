@@ -1,7 +1,7 @@
 ---
 date: 2020-08-11
 layout: post
-title: 차가 중앙선 위에 위치한다면? (Augmentation)
+title: What happens to lane detection when a car changes lanes? (Augmentation)
 subtitle: Augmentation for lane detection
 description: Augmentation for lane detection
 image: /assets/img/car_on_center_line.png
