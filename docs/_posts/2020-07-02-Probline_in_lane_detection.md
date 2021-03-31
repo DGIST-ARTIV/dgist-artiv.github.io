@@ -4,7 +4,7 @@ layout: post
 title: Probabilistic lane estimation from ENet-SAD's result
 subtitle: How to draw probline from points
 description: How to draw probline from points
-image:![draw5](https://user-images.githubusercontent.com/53460541/86770720-1516ed80-c08c-11ea-8d3e-da22733bf592.gif)
+image: ![draw5](https://user-images.githubusercontent.com/53460541/86770720-1516ed80-c08c-11ea-8d3e-da22733bf592.gif)
 category: vision
 tags:
   - vision
