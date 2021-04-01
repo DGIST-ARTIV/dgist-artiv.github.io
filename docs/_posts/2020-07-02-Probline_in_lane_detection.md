@@ -56,4 +56,4 @@ inlier가 주를 이루고 있을 때가 존재해 ransac으로 몇몇 점들은
 ## 계산 가속화 및 최적화
 numba를 이용해 계산 가속화를 하려고 했다. numba는 이중 list 처리를 하지 못하고 지원하는 library가 적다. 심지어 numpy library 전체를 지원하지 않아 쓰기가 까다롭다.
 
---> lane estimation 방법을 point로 하지 않고 결과가 잘 나오는 segmentation image 자체로 하기로 결정했다.
+--> lane estimation을 할 때, point를 가지고 하지 않고 결과가 잘 나오는 segmentation image를 이용하기로 결정했다.
