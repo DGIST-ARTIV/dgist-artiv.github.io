@@ -40,7 +40,7 @@ permalink: /publication/
   </div>
   </details>
   
-  2. Hybrid tracker based optimal path tracking system for complex road environments for autonomous driving (submitted to IEEE Access) [arXiv](https://arxiv.org/abs/2104.14285)
+  2. Hybrid tracker based optimal path tracking system for complex road environments for autonomous driving (Accepted to IEEE Access) [arXiv](https://arxiv.org/abs/2104.14285)
 
 
   <details>
